@@ -7,6 +7,7 @@ const PlantCategory = require('./models/PlantCategories.models')
 const Plant = require('./models/Plants.models')
 const PlantCare = require('./models/PlantCare.models')
 const Planter = require('./models/Planters.models')
+const PlantProduct = require('./models/Products.models')
 const app = express()
 
 app.use(express.json())
@@ -142,6 +143,19 @@ app.get('/categories', async(req, res) => {
             res.status(404).json({error: 'Categories not found. Please add One.'})
         }
         res.status(200).json(categories)
+    }
+    catch(error){
+        res.status(500).json({error: 'Internal Server Error'})
+    }
+})
+
+app.get('/products', async(req, res) => {
+    try{
+        const products = await PlantProduct.find()
+        if(!products){
+            res.status(404).json({error: 'Products not found. Please add One.'})
+        }
+        res.status(200).json(products)
     }
     catch(error){
         res.status(500).json({error: 'Internal Server Error'})
