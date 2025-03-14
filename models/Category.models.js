@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 const categorySchema = new mongoose.Schema({
     name: {
-        type: [String],
+        type: String,
         enum: ['Indoor Plants', 'Outdoor Plants', 'Air Purifying Plants', 'Plant Care', 'Pots and Planters'],
         required: true
     }

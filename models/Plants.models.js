@@ -5,11 +5,12 @@ const plantsSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    category: {
+    category: [{
         type: Schema.Types.ObjectId,
         ref: 'Category',
         required: true
-    },
+    }],
+    subCategory: String,
     price: {
         type: Number,
         required: true
