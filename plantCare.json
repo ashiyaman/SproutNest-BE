@@ -1,0 +1,144 @@
+[
+    {
+      "name": "Organic Vermicompost",
+      "category": ["67d48a9e2e309466cf0a0f50"],
+      "subCategory": "Vermicompost",
+      "price": 349,
+      "details": "Premium quality organic vermicompost to improve soil aeration and enhance plant growth. Rich in essential nutrients and beneficial microbes, suitable for all types of plants.",
+      "tags": ["vermicompost", "organic", "soil", "fertilizer"],
+      "images": ["https://example.com/vermicompost1.jpg"],
+      "rating": 4.5,
+      "reviews": [
+        "My plants have shown amazing growth after using this compost. Highly recommend!",
+        "Great for kitchen gardens and container plants. Very clean and good quality."
+      ],
+      "stock": 50,
+      "weight": ["1kg", "2kg", "5kg"],
+      "usage": "Mix 200g vermicompost per plant into topsoil. Reapply every 30-45 days for best results."
+    },
+    {
+      "name": "Seaweed Extract Liquid Fertilizer",
+      "category": ["67d48a9e2e309466cf0a0f50"],
+      "subCategory": "Fertilizer",
+      "price": 449,
+      "details": "Natural liquid seaweed extract that boosts plant immunity, enhances flowering, and improves nutrient uptake. Supports root growth and overall plant vigor for both indoor and outdoor plants.",
+      "tags": ["seaweed", "fertilizer", "liquid", "organic"],
+      "images": ["https://example.com/seaweed1.jpg"],
+      "rating": 4.7,
+      "reviews": [
+        "Excellent for my orchids and flowering plants. They look lush and healthier now!",
+        "Easy to use and my indoor plants have shown great results."
+      ],
+      "stock": 30,
+      "weight": ["500ml", "1L"],
+      "dosage": "5ml in 1L of water",
+      "usage": "Dilute as per dosage and apply to soil or spray on leaves every 2 weeks during active growth."
+    },
+    {
+      "name": "Liquid Mustard Cake Fertilizer",
+      "category": ["67d48a9e2e309466cf0a0f50"],
+      "subCategory": "Fertilizer",
+      "price": 249,
+      "details": "Natural mustard cake liquid fertilizer for promoting flowering and root development. Organic and safe for edible plants like vegetables and herbs.",
+      "tags": ["mustard cake", "fertilizer", "liquid"],
+      "images": ["https://example.com/mustardcake1.jpg"],
+      "rating": 4.4,
+      "reviews": [
+        "My flowering plants are blooming beautifully after using this.",
+        "Great for vegetables. Healthy and organic!"
+      ],
+      "stock": 40,
+      "weight": ["500ml", "1L"],
+      "dosage": "10ml in 1L water",
+      "usage": "Dilute as per dosage and apply directly to soil around roots every 15 days during growing season."
+    },
+    {
+      "name": "Neem Oil Insecticide",
+      "category": ["67d48a9e2e309466cf0a0f50"],
+      "subCategory": "Pesticide",
+      "price": 199,
+      "details": "Cold-pressed neem oil for natural pest control. Effective against aphids, whiteflies, and mealybugs. Safe for indoor and edible plants.",
+      "tags": ["neem oil", "pesticide", "organic", "insecticide"],
+      "images": ["https://example.com/neemoil1.jpg"],
+      "rating": 4.5,
+      "reviews": [
+        "Controlled mealybugs within a week. Totally recommend!",
+        "Natural and safe. I use this on my herbs and veggies without worry."
+      ],
+      "stock": 55,
+      "weight": ["250ml", "500ml"],
+      "dosage": "5ml neem oil + few drops of liquid soap in 1L water",
+      "usage": "Mix as per dosage and spray on plants every 7-10 days for preventive care or immediate pest treatment."
+    },
+    {
+      "name": "Bone Meal Organic Fertilizer",
+      "category": ["67d48a9e2e309466cf0a0f50"],
+      "subCategory": "Fertilizer",
+      "price": 399,
+      "details": "Rich source of phosphorus and calcium for strong root development and abundant flowering. Organic and suitable for all flowering and fruiting plants.",
+      "tags": ["bone meal", "fertilizer", "organic"],
+      "images": ["https://example.com/bonemeal1.jpg"],
+      "rating": 4.4,
+      "reviews": [
+        "Noticed better flowering after using this on my roses!",
+        "Great for fruit plants. Natural and easy to apply."
+      ],
+      "stock": 45,
+      "weight": ["1kg", "2kg"],
+      "dosage": "50g per plant",
+      "usage": "Mix as per dosage into topsoil. Apply every 6-8 weeks during growing season."
+    },
+    {
+      "name": "Cocopeat Brick (Compressed)",
+      "category": ["67d48a9e2e309466cf0a0f50"],
+      "subCategory": "Cocopeat",
+      "price": 199,
+      "details": "High-quality compressed cocopeat brick that expands to 5-6 liters when hydrated. Improves soil aeration and moisture retention, ideal for potting mixes.",
+      "tags": ["cocopeat", "soil", "gardening"],
+      "images": ["https://example.com/cocopeat1.jpg"],
+      "rating": 4.3,
+      "reviews": [
+        "Very clean and expands a lot. Great for my seedlings!",
+        "Improves moisture retention. I mix this with garden soil for best results."
+      ],
+      "stock": 60,
+      "weight": ["650g"],
+      "usage": "Soak brick in 5L water for 30 minutes to expand. Mix with soil in a 1:1 ratio for potting. No dosage required."
+    },
+    {
+      "name": "Watering Can (2L, Green)",
+      "category": ["67d48a9e2e309466cf0a0f50"],
+      "subCategory": "Watering Can",
+      "price": 299,
+      "details": "Elegant and durable watering can with a long spout for precise watering. Rust-free and lightweight, perfect for indoor and outdoor plants.",
+      "tags": ["watering", "can", "indoor plants", "gardening tools"],
+      "images": ["https://example.com/wateringcan1.jpg"],
+      "rating": 4.6,
+      "reviews": [
+        "Perfect for my balcony plants. Lightweight and easy to use.",
+        "The long spout makes watering hassle-free and neat, doesn't spill at all."
+      ],
+      "stock": 70,
+      "size": "2L",
+      "color": "Green",
+      "usage": "Fill with water and use spout for controlled flow to avoid overwatering. Suitable for delicate plants."
+    },
+    {
+      "name": "Garden Tools Kit (5 pcs)",
+      "category": ["67d48a9e2e309466cf0a0f50"],
+      "subCategory": "Garden Tools",
+      "price": 599,
+      "details": "Complete garden tool kit including trowel, pruner, fork, rake, and transplanter. Durable metal with ergonomic handles for easy gardening.",
+      "tags": ["garden tools", "kit", "gardening"],
+      "images": ["https://example.com/gardentoolkit1.jpg"],
+      "rating": 4.8,
+      "reviews": [
+        "Perfect kit for small gardens and balcony plants.",
+        "Very durable and easy to hold. Value for money!"
+      ],
+      "stock": 35,
+      "size": "Standard Set",
+      "usage": "Use for planting, pruning, weeding, and soil preparation. Clean after each use for long life."
+    }
+  ]
+  
