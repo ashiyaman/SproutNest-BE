@@ -162,6 +162,19 @@ app.get('/products', async(req, res) => {
     }
 })
 
+app.get('/categories/:categoryId', async(req, res) => {
+    try{
+        const products = await PlantProduct.find({category: req.params.categoryId})
+        if(!products){
+            res.status(404).json({error: 'Products not found. Please add One.'})
+        }
+        res.status(200).json(products)
+    }
+    catch(error){
+        res.status(500).json({error: 'Internal Server Error'})
+    }
+})
+
 const PORT = process.env.PORT
 app.listen(PORT, (() => console.log('Server  is running on port', PORT)))
 
