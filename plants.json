@@ -6,7 +6,10 @@
       "price": 599,
       "details": "The ZZ Plant is a classic indoor houseplant known for its ability to thrive in neglect. Its thick, waxy green leaves add elegance to any indoor space. Perfect for low-light corners and offices.",
       "tags": ["Indoor", "Low Maintenance", "Air Purifier"],
-      "images": ["zzplant1.jpg"],
+      "images": ["../images/products/zz-plant-1.jpg",
+                "../images/products/zz-plant-2.jpg",
+                "../images/products/zz-plant-3.jpg",
+                "../images/products/zz-plant-4.jpg"],
       "rating": 4.7,
       "reviews": [],
       "stock": 25,
@@ -23,7 +26,10 @@
       "price": 499,
       "details": "Known for its upright leaves, Snake Plant is an excellent air-purifier that tolerates low light and infrequent watering, perfect for busy people.",
       "tags": ["Indoor", "Air Purifier", "Low Maintenance"],
-      "images": ["snakeplant1.jpg"],
+      "images": ["../images/products/snake-plant-1.jpg",
+                "../images/products/snake-plant-2.jpg",
+                "../images/products/snake-plant-3.jpg",
+                "../images/products/snake-plant-4.jpg"],
       "rating": 4.8,
       "reviews": [],
       "stock": 30,
@@ -40,7 +46,12 @@
       "price": 799,
       "details": "Elegant white flowers and glossy leaves make Peace Lily a beautiful air-purifier. Great for shaded indoor spaces.",
       "tags": ["Indoor", "Flowering", "Air Purifier"],
-      "images": ["peacelily1.jpg"],
+      "images": [
+      "../images/products/peace-lily-1.jpg",
+      "../images/products/peace-lily-2.jpg",
+      "../images/products/peace-lily-3.jpg",
+      "../images/products/peace-lily-4.jpg"
+    ],
       "rating": 4.6,
       "reviews": [],
       "stock": 20,
@@ -57,7 +68,12 @@
       "price": 999,
       "details": "Tall feathery foliage, ideal for patios and living rooms. A natural humidifier and air-purifier.",
       "tags": ["Outdoor", "Palm", "Air Purifier"],
-      "images": ["arecapalm1.jpg"],
+      "images": [
+        "../images/products/areca-palm-1.jpg",
+        "../images/products/areca-palm-2.jpg",
+        "../images/products/areca-palm-3.jpg",
+        "../images/products/areca-palm-4.jpg"
+      ],
       "rating": 4.5,
       "reviews": [],
       "stock": 15,
@@ -74,7 +90,12 @@
       "price": 599,
       "details": "Boston Fern adds lush greenery and is great for humid indoor spaces like bathrooms.",
       "tags": ["Indoor", "Air Purifier"],
-      "images": ["bostonfern1.jpg"],
+      "images": [
+      "../images/products/boston-fern-1.jpg",
+      "../images/products/boston-fern-2.jpg",
+      "../images/products/boston-fern-3.jpg",
+      "../images/products/boston-fern-4.jpg"
+    ],
       "rating": 4.4,
       "reviews": [],
       "stock": 18,
@@ -91,7 +112,12 @@
       "price": 1499,
       "details": "Known for its big violin-shaped leaves, this plant adds bold green touch to interiors.",
       "tags": ["Indoor", "Statement"],
-      "images": ["fiddlefig1.jpg"],
+      "images": [
+      "../images/products/fiddle-leaf-fig-1.jpg",
+      "../images/products/fiddle-leaf-fig-2.jpg",
+      "../images/products/fiddle-leaf-fig-3.jpg",
+      "../images/products/fiddle-leaf-fig-4.jpg"
+    ],
       "rating": 4.3,
       "reviews": [],
       "stock": 10,
@@ -108,7 +134,12 @@
       "price": 799,
       "details": "The rubber plant is popular for its shiny, broad leaves that purify air and brighten up spaces.",
       "tags": ["Indoor", "Decor", "Air Purifier"],
-      "images": ["rubberplant1.jpg"],
+      "images": [
+      "../images/products/rubber-plant-1.jpg",
+      "../images/products/rubber-plant-2.jpg",
+      "../images/products/rubber-plant-3.jpg",
+      "../images/products/rubber-plant-4.jpg"
+    ],
       "rating": 4.4,
       "reviews": [],
       "stock": 16,
@@ -125,7 +156,12 @@
       "price": 399,
       "details": "A symbol of good luck, Jade Plant is a compact succulent perfect for tabletops.",
       "tags": ["Indoor", "Succulent", "Low Maintenance"],
-      "images": ["jadeplant1.jpg"],
+      "images": [
+      "../images/products/jade-plant-1.jpg",
+      "../images/products/jade-plant-2.jpg",
+      "../images/products/jade-plant-3.jpg",
+      "../images/products/jade-plant-4.jpg"
+    ],
       "rating": 4.6,
       "reviews": [],
       "stock": 22,
@@ -142,7 +178,12 @@
       "price": 349,
       "details": "Pothos is a popular trailing plant that grows quickly and tolerates a wide range of conditions.",
       "tags": ["Indoor", "Trailing", "Air Purifier"],
-      "images": ["pothos1.jpg"],
+      "images": [
+      "../images/products/pothos-1.jpg",
+      "../images/products/pothos-2.jpg",
+      "../images/products/pothos-3.jpg",
+      "../images/products/pothos-4.jpg"
+    ],
       "rating": 4.9,
       "reviews": [],
       "stock": 40,
@@ -159,7 +200,12 @@
       "price": 349,
       "details": "Spider Plants are excellent air-purifiers and easy to propagate with their baby offshoots.",
       "tags": ["Indoor", "Air Purifier"],
-      "images": ["spiderplant1.jpg"],
+      "images": [
+      "../images/products/spider-plant-1.jpg",
+      "../images/products/spider-plant-2.jpg",
+      "../images/products/spider-plant-3.jpg",
+      "../images/products/spider-plant-4.jpg"
+    ],
       "rating": 4.8,
       "reviews": [],
       "stock": 26,
@@ -176,7 +222,12 @@
     "price": 399,
     "details": "Aloe Vera is a healing succulent known for its medicinal properties and low maintenance needs.",
     "tags": ["Indoor", "Succulent", "Medicinal"],
-    "images": ["aloevera1.jpg"],
+    "images": [
+      "../images/products/aloe-vera-1.jpg",
+      "../images/products/aloe-vera-2.jpg",
+      "../images/products/aloe-vera-3.jpg",
+      "../images/products/aloe-vera-4.jpg"
+    ],
     "rating": 4.7,
     "reviews": [],
     "stock": 28,
@@ -193,7 +244,12 @@
     "price": 449,
     "details": "Round leaves and compact size make the Money Plant a popular indoor decor option.",
     "tags": ["Indoor", "Low Maintenance", "Decor"],
-    "images": ["moneyplant1.jpg"],
+    "images": [
+        "../images/products/money-plant-1.jpg",
+        "../images/products/pothos-5.jpg",
+        "../images/products/pothos-6.jpg",
+        "../images/products/pothos-4.jpg"
+      ],
     "rating": 4.6,
     "reviews": [],
     "stock": 30,
@@ -210,7 +266,12 @@
     "price": 699,
     "details": "Beautiful foliage with unique leaf patterns that fold at night, adding a dynamic look to interiors.",
     "tags": ["Indoor", "Decor", "Patterned Leaves"],
-    "images": ["calathea1.jpg"],
+    "images": [
+      "../images/products/calathea-1.jpg",
+      "../images/products/calathea-2.jpg",
+      "../images/products/calathea-3.jpg",
+      "../images/products/calathea-4.jpg"
+    ],
     "rating": 4.5,
     "reviews": [],
     "stock": 18,
@@ -227,7 +288,12 @@
     "price": 499,
     "details": "Vivid multicolored leaves make Crotons a stunning addition to gardens and patios.",
     "tags": ["Outdoor", "Colorful Foliage"],
-    "images": ["croton1.jpg"],
+    "images": [
+      "../images/products/croton-1.jpg",
+      "../images/products/croton-2.jpg",
+      "../images/products/croton-3.jpg",
+      "../images/products/croton-4.jpg"
+    ],
     "rating": 4.4,
     "reviews": [],
     "stock": 14,
@@ -244,7 +310,12 @@
     "price": 549,
     "details": "Colorful, patterned foliage with tolerance to low light and irregular watering.",
     "tags": ["Indoor", "Low Maintenance"],
-    "images": ["chineseevergreen1.jpg"],
+    "images": [
+        "../images/products/aglaonema-1.jpg",
+        "../images/products/aglaonema-2.jpg",
+        "../images/products/aglaonema-3.jpg",
+        "../images/products/aglaonema-4.jpg"
+      ],
     "rating": 4.7,
     "reviews": [],
     "stock": 20,
@@ -261,7 +332,12 @@
     "price": 299,
     "details": "Symbol of luck and prosperity, perfect for desks and tabletops.",
     "tags": ["Indoor", "Decor", "Lucky Plant"],
-    "images": ["luckybamboo1.jpg"],
+   "images": [
+      "../images/products/bamboo-1.jpg",
+      "../images/products/bamboo-2.jpg",
+      "../images/products/bamboo-3.jpg",
+      "../images/products/bamboo-4.jpg"
+    ],
     "rating": 4.8,
     "reviews": [],
     "stock": 40,
@@ -278,7 +354,12 @@
     "price": 499,
     "details": "Heart-shaped leaves and trailing growth make it a great option for shelves.",
     "tags": ["Indoor", "Trailing", "Low Maintenance"],
-    "images": ["philodendron1.jpg"],
+    "images": [
+        "../images/products/philodendron-1.jpg",
+        "../images/products/philodendron-2.jpg",
+        "../images/products/philodendron-3.jpg",
+        "../images/products/philodendron-4.jpg"
+      ],
     "rating": 4.7,
     "reviews": [],
     "stock": 25,
@@ -295,7 +376,12 @@
     "price": 899,
     "details": "Glossy flowers and heart-shaped leaves make Anthurium a perfect statement plant.",
     "tags": ["Indoor", "Flowering", "Decor"],
-    "images": ["anthurium1.jpg"],
+    "images": [
+        "../images/products/anthurium-1.jpg",
+        "../images/products/anthurium-2.jpg",
+        "../images/products/anthurium-3.jpg",
+        "../images/products/anthurium-4.jpg"
+    ],
     "rating": 4.5,
     "reviews": [],
     "stock": 15,
@@ -312,7 +398,12 @@
     "price": 499,
     "details": "Compact succulent with bright colorful flowers, great for sunny windowsills.",
     "tags": ["Indoor", "Flowering", "Succulent"],
-    "images": ["kalanchoe1.jpg"],
+    "images": [
+        "../images/products/kalanchoe-1.jpg",
+        "../images/products/kalanchoe-2.jpg",
+        "../images/products/kalanchoe-3.jpg",
+        "../images/products/kalanchoe-4.jpg"
+    ],
     "rating": 4.6,
     "reviews": [],
     "stock": 20,
@@ -329,7 +420,12 @@
     "price": 399,
     "details": "Fast-growing plant with arrow-shaped leaves that work well as tabletop or hanging plant.",
     "tags": ["Indoor", "Trailing"],
-    "images": ["syngonium1.jpg"],
+    "images": [
+        "../images/products/syngonium-1.jpg",
+        "../images/products/syngonium-2.jpg",
+        "../images/products/syngonium-3.jpg",
+        "../images/products/syngonium-4.jpg"
+    ],
     "rating": 4.7,
     "reviews": [],
     "stock": 30,
@@ -346,7 +442,12 @@
         "price": 349,
         "details": "Spider Plant is an excellent air-purifying plant with arching green and white leaves, known for producing baby 'pups'.",
         "tags": ["Indoor", "Air Purifying", "Easy Care"],
-        "images": ["spiderplant1.jpg"],
+        "images": [
+        "../images/products/spider-plant-1.jpg",
+        "../images/products/spider-plant-2.jpg",
+        "../images/products/spider-plant-3.jpg",
+        "../images/products/spider-plant-4.jpg"
+    ],
         "rating": 4.8,
         "reviews": [],
         "stock": 35,
@@ -363,7 +464,12 @@
         "price": 399,
         "details": "Elegant arrow-shaped leaves in shades of green and pink, great as a desk or shelf plant.",
         "tags": ["Indoor", "Decor", "Trailing"],
-        "images": ["arrowhead1.jpg"],
+        "images": [
+        "../images/products/arrowhead-vine-1.jpg",
+        "../images/products/arrowhead-vine-2.jpg",
+        "../images/products/arrowhead-vine-3.jpg",
+        "../images/products/arrowhead-vine-4.jpg"
+    ],
         "rating": 4.6,
         "reviews": [],
         "stock": 22,
@@ -380,7 +486,12 @@
         "price": 549,
         "details": "Known for its striking, colorful, patterned leaves, Rex Begonia adds vibrancy to any space.",
         "tags": ["Indoor", "Colorful Foliage"],
-        "images": ["rexbegonia1.jpg"],
+        "images": [
+        "../images/products/rex-begonia-1.jpg",
+        "../images/products/rex-begonia-2.jpg",
+        "../images/products/rex-begonia-3.jpg",
+        "../images/products/rex-begonia-4.jpg"
+    ],
         "rating": 4.5,
         "reviews": [],
         "stock": 16,
@@ -397,7 +508,12 @@
         "price": 449,
         "details": "Compact and easy to care for, Peperomia is perfect for desks and small spaces.",
         "tags": ["Indoor", "Low Maintenance"],
-        "images": ["peperomia1.jpg"],
+        "images": [
+            "../images/products/peperomia-green-1.jpg",
+            "../images/products/peperomia-green-2.jpg",
+            "../images/products/peperomia-green-3.jpg",
+            "../images/products/peperomia-green-4.jpg"
+        ],
         "rating": 4.7,
         "reviews": [],
         "stock": 24,
@@ -414,7 +530,12 @@
         "price": 399,
         "details": "Vibrantly colored foliage in a variety of patterns makes Coleus a favorite outdoor plant.",
         "tags": ["Outdoor", "Colorful Foliage"],
-        "images": ["coleus1.jpg"],
+        "images": [
+        "../images/products/coleus-1.jpg",
+        "../images/products/coleus-2.jpg",
+        "../images/products/coleus-3.jpg",
+        "../images/products/coleus-4.jpg"
+    ],
         "rating": 4.4,
         "reviews": [],
         "stock": 19,
@@ -431,7 +552,12 @@
         "price": 599,
         "details": "Elegant fern with wavy fronds, perfect for humid indoor environments like bathrooms.",
         "tags": ["Indoor", "Fern", "Humidity Loving"],
-        "images": ["birdnestfern1.jpg"],
+       "images": [
+        "../images/products/bird-nest-fern-1.jpg",
+        "../images/products/bird-nest-fern-2.jpg",
+        "../images/products/bird-nest-fern-3.jpg",
+        "../images/products/bird-nest-fern-4.jpg"
+    ],
         "rating": 4.6,
         "reviews": [],
         "stock": 15,
@@ -448,7 +574,12 @@
         "price": 699,
         "details": "Tall ornamental plant with red and purple foliage, great for gardens and balconies.",
         "tags": ["Outdoor", "Colorful Foliage"],
-        "images": ["cordyline1.jpg"],
+        "images": [
+            "../images/products/cordyline-1.jpg",
+            "../images/products/cordyline-2.jpg",
+            "../images/products/cordyline-3.jpg",
+            "../images/products/cordyline-4.jpg"
+        ],
         "rating": 4.3,
         "reviews": [],
         "stock": 12,
@@ -465,7 +596,12 @@
         "price": 899,
         "details": "Elegant indoor palm that improves air quality and adds tropical vibes to interiors.",
         "tags": ["Indoor", "Air Purifying", "Palm"],
-        "images": ["arecapalm1.jpg"],
+        "images": [
+        "../images/products/areca-palm-1.jpg",
+        "../images/products/areca-palm-2.jpg",
+        "../images/products/areca-palm-3.jpg",
+        "../images/products/areca-palm-4.jpg"
+    ],
         "rating": 4.8,
         "reviews": [],
         "stock": 18,
@@ -482,7 +618,12 @@
         "price": 549,
         "details": "Unique striped leaves with bright yellow flower bracts, perfect for display areas.",
         "tags": ["Indoor", "Flowering", "Patterned Leaves"],
-        "images": ["zebraplant1.jpg"],
+       "images": [
+        "../images/products/zebra-plant-1.jpg",
+        "../images/products/zebra-plant-2.jpg",
+        "../images/products/zebra-plant-3.jpg",
+        "../images/products/zebra-plant-4.jpg"
+    ],
         "rating": 4.5,
         "reviews": [],
         "stock": 10,
@@ -499,7 +640,12 @@
         "price": 899,
         "details": "Glossy flowers and heart-shaped leaves make Anthurium a perfect statement plant.",
         "tags": ["Indoor", "Flowering", "Decor"],
-        "images": ["anthurium1.jpg"],
+        "images": [
+            "../images/products/anthurium-1.jpg",
+            "../images/products/anthurium-2.jpg",
+            "../images/products/anthurium-3.jpg",
+            "../images/products/anthurium-4.jpg"
+        ],
         "rating": 4.5,
         "reviews": [],
         "stock": 15,

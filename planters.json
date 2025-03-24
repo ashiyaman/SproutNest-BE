@@ -1,258 +1,178 @@
 [
-    {
-      "name": "Terracotta Cylinder Planter",
-      "category": ["67d48a9e2e309466cf0a0f52"],
-      "subCategory": "Terracotta Planter",
-      "price": 399,
-      "details": "Classic hand-crafted terracotta planter with a smooth matte finish, perfect for succulents and small plants. Ideal for natural aesthetics and breathability.",
-      "tags": ["terracotta", "cylinder", "indoor", "breathable"],
-      "images": ["https://example.com/terracotta1.jpg"],
-      "rating": 4.5,
-      "reviews": [
-        "Beautiful rustic look, fits perfectly on my window sill!",
-        "Very sturdy and great for my succulents, allows good drainage."
-      ],
-      "stock": 40,
-      "size": "15cm",
-      "color": "Natural Terracotta"
-    },
-    {
-      "name": "Ceramic Glazed Blue Pot",
-      "category": ["67d48a9e2e309466cf0a0f52"],
-      "subCategory": "Ceramic Planter",
-      "price": 549,
-      "details": "Elegant glazed ceramic planter with rich blue finish, adding sophistication to home decor. Suitable for both indoor and balcony plants.",
-      "tags": ["ceramic", "glazed", "indoor", "decorative"],
-      "images": ["https://example.com/ceramicblue1.jpg"],
-      "rating": 4.7,
-      "reviews": [
-        "Absolutely stunning color, adds charm to my living room!",
-        "Perfect size for tabletop plants, love the glossy finish."
-      ],
-      "stock": 30,
-      "size": "18cm",
-      "color": "Blue"
-    },
-    {
-      "name": "Concrete Minimalist Planter",
-      "category": ["67d48a9e2e309466cf0a0f52"],
-      "subCategory": "Concrete Planter",
-      "price": 499,
-      "details": "Raw finish concrete planter with a minimal design for modern decor. Suitable for cacti and succulents, includes drainage hole.",
-      "tags": ["concrete", "minimalist", "modern"],
-      "images": ["https://example.com/concrete1.jpg"],
-      "rating": 4.6,
-      "reviews": [
-        "Love the industrial look, very chic!",
-        "Perfect size for my desk cactus. Sturdy build."
-      ],
-      "stock": 50,
-      "size": "12cm",
-      "color": "Grey"
-    },
-    {
-      "name": "Hanging Metal Planter (Gold)",
-      "category": ["67d48a9e2e309466cf0a0f52"],
-      "subCategory": "Hanging Planter",
-      "price": 699,
-      "details": "Elegant golden metal hanging planter for small indoor plants. Adds a modern touch to your balcony or living space.",
-      "tags": ["hanging", "metal", "gold", "decorative"],
-      "images": ["https://example.com/hanginggold1.jpg"],
-      "rating": 4.8,
-      "reviews": [
-        "Looks stunning hanging by my window!",
-        "Very sturdy and shiny, holds small pots easily."
-      ],
-      "stock": 20,
-      "size": "15cm",
-      "color": "Gold"
-    },
-    {
-      "name": "Plastic Self-Watering Pot (White)",
-      "category": ["67d48a9e2e309466cf0a0f52"],
-      "subCategory": "Plastic Planter",
-      "price": 299,
-      "details": "Smart self-watering plastic pot with detachable base. Great for indoor plants with low maintenance needs.",
-      "tags": ["self-watering", "plastic", "indoor"],
-      "images": ["https://example.com/selfwatering1.jpg"],
-      "rating": 4.4,
-      "reviews": [
-        "Perfect for my busy schedule, plants stay hydrated!",
-        "Looks neat and simple, very functional."
-      ],
-      "stock": 60,
-      "size": "16cm",
-      "color": "White"
-    },
-    {
-      "name": "Hand-painted Ceramic Pot (Floral Design)",
-      "category": ["67d48a9e2e309466cf0a0f52"],
-      "subCategory": "Ceramic Planter",
-      "price": 649,
-      "details": "Charming hand-painted ceramic pot with colorful floral patterns. Perfect to brighten up your garden or balcony.",
-      "tags": ["hand-painted", "ceramic", "decorative"],
-      "images": ["https://example.com/handpainted1.jpg"],
-      "rating": 4.9,
-      "reviews": [
-        "Such a beautiful design, makes my plants look special!",
-        "Gorgeous and well-made, great for gifting."
-      ],
-      "stock": 25,
-      "size": "20cm",
-      "color": "Multicolor"
-    },
-    {
-      "name": "Rectangular Balcony Rail Planter (Green)",
-      "category": ["67d48a9e2e309466cf0a0f52"],
-      "subCategory": "Balcony Planter",
-      "price": 599,
-      "details": "Durable rectangular railing planter for balconies. Made from weather-resistant plastic and includes metal hooks.",
-      "tags": ["balcony", "rail", "plastic"],
-      "images": ["https://example.com/railplanter1.jpg"],
-      "rating": 4.3,
-      "reviews": [
-        "Fits perfectly on my balcony railing, looks lovely with flowers!",
-        "Good quality plastic, hooks are strong."
-      ],
-      "stock": 35,
-      "size": "40cm x 20cm",
-      "color": "Green"
-    },
-    {
-      "name": "Macrame Hanging Planter (Cotton)",
-      "category": ["67d48a9e2e309466cf0a0f52"],
-      "subCategory": "Hanging Planter",
-      "price": 499,
-      "details": "Stylish macrame hanging planter made from 100% cotton. Perfect for adding a boho vibe to any indoor space.",
-      "tags": ["macrame", "hanging", "boho"],
-      "images": ["https://example.com/macrame1.jpg"],
-      "rating": 4.8,
-      "reviews": [
-        "Such a pretty addition to my room. Love the boho look!",
-        "Strong and well-made, holds my pot securely."
-      ],
-      "stock": 45,
-      "size": "Adjustable (fits pots 10-20cm)",
-      "color": "Natural Cotton"
-    },
-    {
-      "name": "Fibre Lightweight Pot (Black)",
-      "category": ["67d48a9e2e309466cf0a0f52"],
-      "subCategory": "Fiber Planter",
-      "price": 799,
-      "details": "High-quality fiber planter with a sleek matte black finish. Lightweight yet durable, suitable for indoor and outdoor use.",
-      "tags": ["fiber", "lightweight", "modern"],
-      "images": ["https://example.com/fiberblack1.jpg"],
-      "rating": 4.7,
-      "reviews": [
-        "Looks very modern and stylish. Love the finish!",
-        "Easy to move around, even when filled with soil."
-      ],
-      "stock": 40,
-      "size": "25cm",
-      "color": "Black"
-    },
-    {
-      "name": "Bamboo Eco-friendly Pot",
-      "category": ["67d48a9e2e309466cf0a0f52"],
-      "subCategory": "Eco-friendly Planter",
-      "price": 399,
-      "details": "Eco-friendly bamboo planter, biodegradable and sustainable. Perfect for herbs and small plants.",
-      "tags": ["eco-friendly", "bamboo", "natural"],
-      "images": ["https://example.com/bamboo1.jpg"],
-      "rating": 4.5,
-      "reviews": [
-        "Love the natural look and eco-friendly material!",
-        "Lightweight yet sturdy. Great for my herbs."
-      ],
-      "stock": 50,
-      "size": "15cm",
-      "color": "Natural Bamboo"
-    },
-    {
-        "name": "Rattan Woven Basket Planter",
-        "category": ["67d48a9e2e309466cf0a0f52"],
-        "subCategory": "Decorative Basket Planter",
-        "price": 699,
-        "details": "Hand-woven rattan basket planter with an inner plastic lining to prevent water leakage. Perfect for indoor plants and adds a rustic, natural vibe to your home.",
-        "tags": ["rattan", "basket", "indoor", "decorative"],
-        "images": ["https://example.com/rattanbasket1.jpg"],
-        "rating": 4.7,
-        "reviews": [
-          "Adds such a cozy and rustic feel to my living room!",
-          "Beautiful craftsmanship and practical with the plastic lining."
-        ],
-        "stock": 20,
-        "size": "22cm",
-        "color": "Natural Brown"
-      },
-      {
-        "name": "Rectangular Wooden Planter Box",
-        "category": ["67d48a9e2e309466cf0a0f52"],
-        "subCategory": "Wooden Planter",
-        "price": 899,
-        "details": "Premium wooden planter box made from treated pine wood for durability. Ideal for creating a mini herb or flower garden on balconies and patios.",
-        "tags": ["wooden", "rectangular", "balcony", "outdoor"],
-        "images": ["https://example.com/woodenbox1.jpg"],
-        "rating": 4.8,
-        "reviews": [
-          "Perfect for my herbs on the patio. Great size and looks natural!",
-          "Well-built and holds up well outdoors in all weather."
-        ],
-        "stock": 15,
-        "size": "40cm x 25cm",
-        "color": "Natural Pine"
-      },
-      {
-        "name": "Geometric Metal Frame Planter (White Pot)",
-        "category": ["67d48a9e2e309466cf0a0f52"],
-        "subCategory": "Metal Frame Planter",
-        "price": 749,
-        "details": "Modern geometric metal frame with a white ceramic pot insert. Perfect for contemporary home décor and small indoor plants.",
-        "tags": ["metal", "geometric", "modern", "indoor"],
-        "images": ["https://example.com/geometal1.jpg"],
-        "rating": 4.9,
-        "reviews": [
-          "Super stylish! Makes my little plant look like art.",
-          "Great quality and very modern — love the design!"
-        ],
-        "stock": 25,
-        "size": "18cm",
-        "color": "Black Frame with White Pot"
-      },
-      {
-        "name": "Color Splash Plastic Pot (Set of 3)",
-        "category": ["67d48a9e2e309466cf0a0f52"],
-        "subCategory": "Plastic Planter Set",
-        "price": 599,
-        "details": "Vibrant set of three colorful plastic pots, perfect for brightening up any indoor or outdoor space. Lightweight, durable, and UV-resistant.",
-        "tags": ["plastic", "colorful", "set", "outdoor", "indoor"],
-        "images": ["https://example.com/colorset1.jpg"],
-        "rating": 4.6,
-        "reviews": [
-          "Such fun colors! They make my balcony so lively!",
-          "Good quality plastic and perfect for small flowering plants."
-        ],
-        "stock": 35,
-        "size": "14cm each",
-        "color": "Red, Yellow, Blue"
-      },
-      {
-        "name": "Large Fiberstone Pot (Grey)",
-        "category": ["67d48a9e2e309466cf0a0f52"],
-        "subCategory": "Fiberstone Planter",
-        "price": 1299,
-        "details": "Premium fiberstone planter in a chic grey matte finish. Lightweight yet tough, suitable for large indoor plants like fiddle leaf figs or rubber plants.",
-        "tags": ["fiberstone", "large", "indoor", "modern"],
-        "images": ["https://example.com/fiberstonegrey1.jpg"],
-        "rating": 4.8,
-        "reviews": [
-          "Perfect for my large rubber plant — looks so elegant!",
-          "Very lightweight but feels solid. Great modern look for indoors."
-        ],
-        "stock": 18,
-        "size": "35cm",
-        "color": "Matte Grey"
-      }
-  ]
-  
+  {
+    "name": "Terracotta Cylinder Planter",
+    "category": ["67d48a9e2e309466cf0a0f52"],
+    "subCategory": "Terracotta Planter",
+    "price": 399,
+    "details": "Classic hand-crafted terracotta planter with a smooth matte finish, perfect for succulents and small plants. Ideal for natural aesthetics and breathability.",
+    "tags": ["terracotta", "cylinder", "indoor", "breathable"],
+    "images": [
+      "../images/products/planter-1.jpg",
+      "../images/products/planter-2.jpg",
+      "../images/products/planter-3.jpg",
+      "../images/products/planter-4.jpg"
+    ],
+    "rating": 4.5,
+    "reviews": [
+      "Beautiful rustic look, fits perfectly on my window sill!",
+      "Very sturdy and great for my succulents, allows good drainage."
+    ],
+    "stock": 40,
+    "size": "15cm",
+    "color": "Natural Terracotta"
+  },
+  {
+    "name": "Ceramic Glazed Blue Pot",
+    "category": ["67d48a9e2e309466cf0a0f52"],
+    "subCategory": "Ceramic Planter",
+    "price": 549,
+    "details": "Elegant glazed ceramic planter with rich blue finish, adding sophistication to home decor. Suitable for both indoor and balcony plants.",
+    "tags": ["ceramic", "glazed", "indoor", "decorative"],
+    "images": [
+      "../images/products/planter-5.jpg",
+      "../images/products/planter-6.jpg",
+      "../images/products/planter-7.jpg",
+      "../images/products/planter-8.jpg"
+    ],
+    "rating": 4.7,
+    "reviews": [
+      "Absolutely stunning color, adds charm to my living room!",
+      "Perfect size for tabletop plants, love the glossy finish."
+    ],
+    "stock": 30,
+    "size": "18cm",
+    "color": "Blue"
+  },
+  {
+    "name": "Concrete Minimalist Planter",
+    "category": ["67d48a9e2e309466cf0a0f52"],
+    "subCategory": "Concrete Planter",
+    "price": 499,
+    "details": "Raw finish concrete planter with a minimal design for modern decor. Suitable for cacti and succulents, includes drainage hole.",
+    "tags": ["concrete", "minimalist", "modern"],
+    "images": [
+      "../images/products/planter-9.jpg",
+      "../images/products/planter-10.jpg",
+      "../images/products/planter-11.jpg",
+      "../images/products/planter-12.jpg"
+    ],
+    "rating": 4.6,
+    "reviews": [
+      "Love the industrial look, very chic!",
+      "Perfect size for my desk cactus. Sturdy build."
+    ],
+    "stock": 50,
+    "size": "12cm",
+    "color": "Grey"
+  },
+  {
+    "name": "Hanging Metal Planter (Gold)",
+    "category": ["67d48a9e2e309466cf0a0f52"],
+    "subCategory": "Hanging Planter",
+    "price": 699,
+    "details": "Elegant golden metal hanging planter for small indoor plants. Adds a modern touch to your balcony or living space.",
+    "tags": ["hanging", "metal", "gold", "decorative"],
+    "images": [
+      "../images/products/planter-13.jpg",
+      "../images/products/planter-14.jpg",
+      "../images/products/planter-15.jpg",
+      "../images/products/planter-16.jpg"
+    ],
+    "rating": 4.8,
+    "reviews": [
+      "Looks stunning hanging by my window!",
+      "Very sturdy and shiny, holds small pots easily."
+    ],
+    "stock": 20,
+    "size": "15cm",
+    "color": "Gold"
+  },
+  {
+    "name": "Plastic Self-Watering Pot (White)",
+    "category": ["67d48a9e2e309466cf0a0f52"],
+    "subCategory": "Plastic Planter",
+    "price": 299,
+    "details": "Smart self-watering plastic pot with detachable base. Great for indoor plants with low maintenance needs.",
+    "tags": ["self-watering", "plastic", "indoor"],
+    "images": [
+      "../images/products/planter-17.jpg",
+      "../images/products/planter-18.jpg",
+      "../images/products/planter-19.jpg",
+      "../images/products/planter-20.jpg"
+    ],
+    "rating": 4.4,
+    "reviews": [
+      "Perfect for my busy schedule, plants stay hydrated!",
+      "Looks neat and simple, very functional."
+    ],
+    "stock": 60,
+    "size": "16cm",
+    "color": "White"
+  },
+  {
+    "name": "Hand-painted Ceramic Pot (Floral Design)",
+    "category": ["67d48a9e2e309466cf0a0f52"],
+    "subCategory": "Ceramic Planter",
+    "price": 649,
+    "details": "Charming hand-painted ceramic pot with colorful floral patterns. Perfect to brighten up your garden or balcony.",
+    "tags": ["hand-painted", "ceramic", "decorative"],
+    "images": [
+      "../images/products/planter-21.jpg",
+      "../images/products/planter-22.jpg",
+      "../images/products/planter-23.jpg",
+      "../images/products/planter-24.jpg"
+    ],
+    "rating": 4.9,
+    "reviews": [
+      "Such a beautiful design, makes my plants look special!",
+      "Gorgeous and well-made, great for gifting."
+    ],
+    "stock": 25,
+    "size": "20cm",
+    "color": "Multicolor"
+  },
+  {
+    "name": "Rectangular Balcony Rail Planter (Green)",
+    "category": ["67d48a9e2e309466cf0a0f52"],
+    "subCategory": "Balcony Planter",
+    "price": 599,
+    "details": "Durable rectangular railing planter for balconies. Made from weather-resistant plastic and includes metal hooks.",
+    "tags": ["balcony", "rail", "plastic"],
+    "images": [
+      "../images/products/planter-25.jpg",
+      "../images/products/planter-26.jpg",
+      "../images/products/planter-27.jpg",
+      "../images/products/planter-28.jpg"
+    ],
+    "rating": 4.3,
+    "reviews": [
+      "Fits perfectly on my balcony railing, looks lovely with flowers!",
+      "Good quality plastic, hooks are strong."
+    ],
+    "stock": 35,
+    "size": "40cm x 20cm",
+    "color": "Green"
+  },
+  {
+    "name": "Macrame Hanging Planter (Cotton)",
+    "category": ["67d48a9e2e309466cf0a0f52"],
+    "subCategory": "Hanging Planter",
+    "price": 499,
+    "details": "Stylish macrame hanging planter made from 100% cotton. Perfect for adding a boho vibe to any indoor space.",
+    "tags": ["macrame", "hanging", "boho"],
+    "images": [
+      "../images/products/planter-29.jpg",
+      "../images/products/planter-30.jpg",
+      "../images/products/planter-31.jpg",
+      "../images/products/planter-32.jpg"
+    ],
+    "rating": 4.8,
+    "reviews": [
+      "Such a pretty addition to my room. Love the boho look!",
+      "Strong and well-made, holds my pot securely."
+    ],
+    "stock": 45,
+    "size": "Adjustable (fits pots 10-20cm)",
+    "color": "Natural Cotton"
+  }
+]

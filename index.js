@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
 const express = require('express')
 const fs = require('fs')
+const cors = require('cors')
 
 const initializeDatabase = require('./db/db.connect')
 const PlantCategory = require('./models/PlantCategories.models')
@@ -8,9 +9,12 @@ const Plant = require('./models/Plants.models')
 const PlantCare = require('./models/PlantCare.models')
 const Planter = require('./models/Planters.models')
 const PlantProduct = require('./models/Products.models')
+const User = require('./models/users/User.models')
+const UserAddress = require('./models/users/UserAddress.models')
 const app = express()
 
 app.use(express.json())
+app.use(cors())
 
 const jsonPData = fs.readFileSync('./plants.json')
 const plantsData = JSON.parse(jsonPData)
@@ -130,7 +134,6 @@ const seedPlanterData = () => {
     }
 }
 
-
 //seedCategoryData()
 //seedPlantData()
 //seedPlantCareData()
@@ -172,6 +175,58 @@ app.get('/categories/:categoryId', async(req, res) => {
     }
     catch(error){
         res.status(500).json({error: 'Internal Server Error'})
+    }
+})
+
+app.get('/products/:productId', async(req, res) => {
+    try{
+        console.log('id....', req.params.productId)
+        const product = await PlantProduct.findById(req.params.productId)
+        if(!product){
+            res.status(404).json({error: 'Product not found. Please add One.'})
+        }
+        res.status(200).json(product)
+    }
+    catch(error){
+        res.status(500).json({error: 'Internal Server Error'})
+    }
+})
+
+app.get('/products/category/:categoryId', async(req, res) => {
+    try{
+        console.log('id....', req.params.categoryId)
+        const products = await PlantProduct.find({category: req.params.categoryId})
+        if(!products){
+            res.status(404).json({error: 'Products not found.'})
+        }
+        res.status(200).json(products)
+    }
+    catch(error){
+        res.status(500).json({error: 'Internal Server Error'})
+    }
+})
+
+
+
+app.post('/user', async(req, res) => {
+    const { name, designation, phoneNo, street, city, country, zip, addressType } = req.body;
+    try{
+        const address = new UserAddress({
+            addressType, street, city, zip, country
+        })
+        const userAddress = await address.save()
+
+        const user = new User({
+            name ,
+            addresses: userAddress._id,
+            designation,
+            phoneNo
+        })
+        await user.save()
+        res.status(201).json({ message: "User created successfully", user: user });
+    }
+    catch(error){
+        console.log(error)
     }
 })
 

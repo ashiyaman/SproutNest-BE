@@ -1,0 +1,3760 @@
+[
+    {
+      "_id": "67d7c9493ff863bce43bfd73",
+      "name": "ZZ Plant (Zamioculcas zamiifolia)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Low Maintenance",
+      "price": 599,
+      "details": "The ZZ Plant is a classic indoor houseplant known for its ability to thrive in neglect. Its thick, waxy green leaves add elegance to any indoor space. Perfect for low-light corners and offices.",
+      "tags": [
+        "Indoor",
+        "Low Maintenance",
+        "Air Purifier"
+      ],
+      "images": [
+        "../images/products/zz-plant-1.webp",
+        "../images/products/zz-plant-2.webp",
+        "../images/products/zz-plant-3.webp",
+        "../images/products/zz-plant-4.webp"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "stock": 25,
+      "productType": "Plant",
+      "size": "30-45cm",
+      "waterIntake": "Once every 2 weeks or when soil is dry",
+      "sunlightRequired": "Low to medium indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Water-soluble fertilizer every 3 months",
+      "createdAt": "2025-03-17T07:03:37.592Z",
+      "updatedAt": "2025-03-17T07:03:37.592Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c9493ff863bce43bfd76",
+      "name": "Concrete Minimalist Planter",
+      "category": [
+        "67d48a9e2e309466cf0a0f52"
+      ],
+      "subCategory": "Concrete Planter",
+      "price": 499,
+      "details": "Raw finish concrete planter with a minimal design for modern decor. Suitable for cacti and succulents, includes drainage hole.",
+      "tags": [
+        "concrete",
+        "minimalist",
+        "modern"
+      ],
+      "images": [
+        "../images/products/planter-9.avif",
+        "../images/products/planter-10.webp",
+        "../images/products/planter-11.webp",
+        "../images/products/planter-12.webp"
+      ],
+      "rating": 4.6,
+      "reviews": [
+        "Love the industrial look, very chic!",
+        "Perfect size for my desk cactus. Sturdy build."
+      ],
+      "stock": 50,
+      "productType": "Planter",
+      "size": "12cm",
+      "color": "Grey",
+      "createdAt": "2025-03-17T07:03:37.592Z",
+      "updatedAt": "2025-03-17T07:03:37.592Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c9493ff863bce43bfd77",
+      "name": "Hanging Metal Planter (Gold)",
+      "category": [
+        "67d48a9e2e309466cf0a0f52"
+      ],
+      "subCategory": "Hanging Planter",
+      "price": 699,
+      "details": "Elegant golden metal hanging planter for small indoor plants. Adds a modern touch to your balcony or living space.",
+      "tags": [
+        "hanging",
+        "metal",
+        "gold",
+        "decorative"
+      ],
+      "images": [
+        "../images/products/planter-13.webp",
+        "../images/products/planter-14.webp",
+        "../images/products/planter-15.webp",
+        "../images/products/planter-16.webp"
+      ],
+      "rating": 4.8,
+      "reviews": [
+        "Looks stunning hanging by my window!",
+        "Very sturdy and shiny, holds small pots easily."
+      ],
+      "stock": 20,
+      "productType": "Planter",
+      "size": "15cm",
+      "color": "Gold",
+      "createdAt": "2025-03-17T07:03:37.592Z",
+      "updatedAt": "2025-03-17T07:03:37.592Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c9493ff863bce43bfd78",
+      "name": "Plastic Self-Watering Pot (White)",
+      "category": [
+        "67d48a9e2e309466cf0a0f52"
+      ],
+      "subCategory": "Plastic Planter",
+      "price": 299,
+      "details": "Smart self-watering plastic pot with detachable base. Great for indoor plants with low maintenance needs.",
+      "tags": [
+        "self-watering",
+        "plastic",
+        "indoor"
+      ],
+      "images": [
+        "../images/products/planter-17.webp",
+        "../images/products/planter-18.webp",
+        "../images/products/planter-19.webp",
+        "../images/products/planter-20.webp"
+      ],
+      "rating": 4.4,
+      "reviews": [
+        "Perfect for my busy schedule, plants stay hydrated!",
+        "Looks neat and simple, very functional."
+      ],
+      "stock": 60,
+      "productType": "Planter",
+      "size": "16cm",
+      "color": "White",
+      "createdAt": "2025-03-17T07:03:37.592Z",
+      "updatedAt": "2025-03-17T07:03:37.592Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c9493ff863bce43bfd79",
+      "name": "Hand-painted Ceramic Pot (Floral Design)",
+      "category": [
+        "67d48a9e2e309466cf0a0f52"
+      ],
+      "subCategory": "Ceramic Planter",
+      "price": 649,
+      "details": "Charming hand-painted ceramic pot with colorful floral patterns. Perfect to brighten up your garden or balcony.",
+      "tags": [
+        "hand-painted",
+        "ceramic",
+        "decorative"
+      ],
+      "images": [
+        "../images/products/planter-21.webp",
+        "../images/products/planter-22.webp",
+        "../images/products/planter-23.webp",
+        "../images/products/planter-24.webp"
+      ],
+      "rating": 4.9,
+      "reviews": [
+        "Such a beautiful design, makes my plants look special!",
+        "Gorgeous and well-made, great for gifting."
+      ],
+      "stock": 25,
+      "productType": "Planter",
+      "size": "20cm",
+      "color": "Multicolor",
+      "createdAt": "2025-03-17T07:03:37.592Z",
+      "updatedAt": "2025-03-17T07:03:37.592Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c9493ff863bce43bfd75",
+      "name": "Ceramic Glazed Blue Pot",
+      "category": [
+        "67d48a9e2e309466cf0a0f52"
+      ],
+      "subCategory": "Ceramic Planter",
+      "price": 549,
+      "details": "Elegant glazed ceramic planter with rich blue finish, adding sophistication to home decor. Suitable for both indoor and balcony plants.",
+      "tags": [
+        "ceramic",
+        "glazed",
+        "indoor",
+        "decorative"
+      ],
+      "images": [
+        "../images/products/planter-5.avif",
+        "../images/products/planter-6.avif",
+        "../images/products/planter-7.webp",
+        "../images/products/planter-8.webp"
+      ],
+      "rating": 4.7,
+      "reviews": [
+        "Absolutely stunning color, adds charm to my living room!",
+        "Perfect size for tabletop plants, love the glossy finish."
+      ],
+      "stock": 30,
+      "productType": "Planter",
+      "size": "18cm",
+      "color": "Blue",
+      "createdAt": "2025-03-17T07:03:37.592Z",
+      "updatedAt": "2025-03-17T07:03:37.592Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c9493ff863bce43bfd74",
+      "name": "Terracotta Cylinder Planter",
+      "category": [
+        "67d48a9e2e309466cf0a0f52"
+      ],
+      "subCategory": "Terracotta Planter",
+      "price": 399,
+      "details": "Classic hand-crafted terracotta planter with a smooth matte finish, perfect for succulents and small plants. Ideal for natural aesthetics and breathability.",
+      "tags": [
+        "terracotta",
+        "cylinder",
+        "indoor",
+        "breathable"
+      ],
+      "images": [
+        "../images/products/planter-1.avif",
+        "../images/products/planter-2.webp",
+        "../images/products/planter-3.avif",
+        "../images/products/planter-4.avif"
+      ],
+      "rating": 4.5,
+      "reviews": [
+        "Beautiful rustic look, fits perfectly on my window sill!",
+        "Very sturdy and great for my succulents, allows good drainage."
+      ],
+      "stock": 40,
+      "productType": "Planter",
+      "size": "15cm",
+      "color": "Natural Terracotta",
+      "createdAt": "2025-03-17T07:03:37.592Z",
+      "updatedAt": "2025-03-17T07:03:37.592Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94c3ff863bce43bfd8e",
+      "name": "Snake Plant (Sansevieria trifasciata)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47",
+        "67d48a9e2e309466cf0a0f4e"
+      ],
+      "subCategory": "Air Purifying",
+      "price": 499,
+      "details": "Known for its upright leaves, Snake Plant is an excellent air-purifier that tolerates low light and infrequent watering, perfect for busy people.",
+      "tags": [
+        "Indoor",
+        "Air Purifier",
+        "Low Maintenance"
+      ],
+      "images": [
+        "./images/products/snake-plant-1.jpg",
+        "./images/products/snake-plant-2.jpg",
+        "./images/products/snake-plant-3.jpg",
+        "./images/products/snake-plant-4.webp"
+      ],
+      "rating": 4.8,
+      "reviews": [],
+      "stock": 30,
+      "productType": "Plant",
+      "size": "45-60cm",
+      "waterIntake": "Every 10-14 days",
+      "sunlightRequired": "Indirect to low light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Water-soluble fertilizer every 2 months",
+      "createdAt": "2025-03-17T07:03:40.793Z",
+      "updatedAt": "2025-03-17T07:03:40.793Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94d3ff863bce43bfd90",
+      "name": "Peace Lily (Spathiphyllum)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47",
+        "67d48a9e2e309466cf0a0f4c"
+      ],
+      "subCategory": "Flowering",
+      "price": 799,
+      "details": "Elegant white flowers and glossy leaves make Peace Lily a beautiful air-purifier. Great for shaded indoor spaces.",
+      "tags": [
+        "Indoor",
+        "Flowering",
+        "Air Purifier"
+      ],
+      "images": [
+        "./images/products/peace-lily-1.jpg",
+        "./images/products/peace-lily-2.jpg",
+        "./images/products/peace-lily-3.jpg",
+        "./images/products/peace-lily-4.jpg"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "stock": 20,
+      "productType": "Plant",
+      "size": "30-45cm",
+      "waterIntake": "Weekly when topsoil dries",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Liquid fertilizer every 2 months",
+      "createdAt": "2025-03-17T07:03:41.079Z",
+      "updatedAt": "2025-03-17T07:03:41.079Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c9493ff863bce43bfd7a",
+      "name": "Rectangular Balcony Rail Planter (Green)",
+      "category": [
+        "67d48a9e2e309466cf0a0f52"
+      ],
+      "subCategory": "Balcony Planter",
+      "price": 599,
+      "details": "Durable rectangular railing planter for balconies. Made from weather-resistant plastic and includes metal hooks.",
+      "tags": [
+        "balcony",
+        "rail",
+        "plastic"
+      ],
+      "images": [
+        "./images/products/planter-25.webp",
+        "./images/products/planter-26.webp",
+        "./images/products/planter-27.webp",
+        "./images/products/planter-28.webp"
+      ],
+      "rating": 4.3,
+      "reviews": [
+        "Fits perfectly on my balcony railing, looks lovely with flowers!",
+        "Good quality plastic, hooks are strong."
+      ],
+      "stock": 35,
+      "productType": "Planter",
+      "size": "40cm x 20cm",
+      "color": "Green",
+      "createdAt": "2025-03-17T07:03:37.592Z",
+      "updatedAt": "2025-03-17T07:03:37.592Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94d3ff863bce43bfd92",
+      "name": "Areca Palm (Dypsis lutescens)",
+      "category": [
+        "67d48a9e2e309466cf0a0f4a"
+      ],
+      "subCategory": "Outdoor",
+      "price": 999,
+      "details": "Tall feathery foliage, ideal for patios and living rooms. A natural humidifier and air-purifier.",
+      "tags": [
+        "Outdoor",
+        "Palm",
+        "Air Purifier"
+      ],
+      "images": [
+        "./images/products/areca-palm-1.jpg",
+        "./images/products/areca-palm-2.jpg",
+        "./images/products/areca-palm-3.jpg",
+        "./images/products/areca-palm-4.webp"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "stock": 15,
+      "productType": "Plant",
+      "size": "55-70cm",
+      "waterIntake": "Twice a week",
+      "sunlightRequired": "Filtered bright sunlight",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Water-soluble fertilizer every 3 months",
+      "createdAt": "2025-03-17T07:03:41.121Z",
+      "updatedAt": "2025-03-17T07:03:41.121Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c9493ff863bce43bfd7b",
+      "name": "Macrame Hanging Planter (Cotton)",
+      "category": [
+        "67d48a9e2e309466cf0a0f52"
+      ],
+      "subCategory": "Hanging Planter",
+      "price": 499,
+      "details": "Stylish macrame hanging planter made from 100% cotton. Perfect for adding a boho vibe to any indoor space.",
+      "tags": [
+        "macrame",
+        "hanging",
+        "boho"
+      ],
+      "images": [
+        "./images/products/planter-22.webp",
+        "./images/products/planter-23.webp",
+        "./images/products/planter-24.webp"
+      ],
+      "rating": 4.8,
+      "reviews": [
+        "Such a pretty addition to my room. Love the boho look!",
+        "Strong and well-made, holds my pot securely."
+      ],
+      "stock": 45,
+      "productType": "Planter",
+      "size": "Adjustable (fits pots 10-20cm)",
+      "color": "Natural Cotton",
+      "createdAt": "2025-03-17T07:03:37.592Z",
+      "updatedAt": "2025-03-17T07:03:37.592Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94d3ff863bce43bfd94",
+      "name": "Boston Fern (Nephrolepis exaltata)",
+      "category": [
+        "67d48a9e2e309466cf0a0f4e"
+      ],
+      "subCategory": "Air Purifying",
+      "price": 599,
+      "details": "Boston Fern adds lush greenery and is great for humid indoor spaces like bathrooms.",
+      "tags": [
+        "Indoor",
+        "Air Purifier"
+      ],
+      "images": [
+        "./images/products/boston-fern-1.jpg",
+        "./images/products/boston-fern-2.jpg",
+        "./images/products/boston-fern-3.jpg",
+        "./images/products/boston-fern-4.jpg"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "stock": 18,
+      "productType": "Plant",
+      "size": "30-45cm",
+      "waterIntake": "2-3 times a week",
+      "sunlightRequired": "Indirect light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Liquid fertilizer every 2 months",
+      "createdAt": "2025-03-17T07:03:41.160Z",
+      "updatedAt": "2025-03-17T07:03:41.160Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94d3ff863bce43bfd96",
+      "name": "Fiddle Leaf Fig (Ficus lyrata)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Statement Plants",
+      "price": 1499,
+      "details": "Known for its big violin-shaped leaves, this plant adds bold green touch to interiors.",
+      "tags": [
+        "Indoor",
+        "Statement"
+      ],
+      "images": [
+        "./images/products/fiddle-leaf-fig-1.jpg",
+        "./images/products/fiddle-leaf-fig-2.jpg",
+        "./images/products/fiddle-leaf-fig-3.jpg",
+        "./images/products/fiddle-leaf-fig-4.webp"
+      ],
+      "rating": 4.3,
+      "reviews": [],
+      "stock": 10,
+      "productType": "Plant",
+      "size": "45-60cm",
+      "waterIntake": "Weekly",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Water-soluble fertilizer every 2 months",
+      "createdAt": "2025-03-17T07:03:41.198Z",
+      "updatedAt": "2025-03-17T07:03:41.198Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94d3ff863bce43bfd98",
+      "name": "Rubber Plant (Ficus elastica)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Indoor Decor",
+      "price": 799,
+      "details": "The rubber plant is popular for its shiny, broad leaves that purify air and brighten up spaces.",
+      "tags": [
+        "Indoor",
+        "Decor",
+        "Air Purifier"
+      ],
+      "images": [
+        "./images/products/rubber-plant-1.jpg",
+        "./images/products/rubber-plant-2.jpg",
+        "./images/products/rubber-plant-3.jpg",
+        "./images/products/rubber-plant-4.webp"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "stock": 16,
+      "productType": "Plant",
+      "size": "55-70cm",
+      "waterIntake": "Once a week",
+      "sunlightRequired": "Medium to bright indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Any fertilizer every 3 months",
+      "createdAt": "2025-03-17T07:03:41.239Z",
+      "updatedAt": "2025-03-17T07:03:41.239Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94d3ff863bce43bfd9a",
+      "name": "Jade Plant (Crassula ovata)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Succulent",
+      "price": 399,
+      "details": "A symbol of good luck, Jade Plant is a compact succulent perfect for tabletops.",
+      "tags": [
+        "Indoor",
+        "Succulent",
+        "Low Maintenance"
+      ],
+      "images": [
+        "./images/products/jade-plant-1.jpg",
+        "./images/products/jade-plant-2.jpg",
+        "./images/products/jade-plant-3.jpg",
+        "./images/products/jade-plant-4.webp"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "stock": 22,
+      "productType": "Plant",
+      "size": "20-30cm",
+      "waterIntake": "Every 2-3 weeks",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Cactus fertilizer every 3 months",
+      "createdAt": "2025-03-17T07:03:41.281Z",
+      "updatedAt": "2025-03-17T07:03:41.281Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94d3ff863bce43bfd9c",
+      "name": "Pothos (Epipremnum aureum)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Trailing Plants",
+      "price": 349,
+      "details": "Pothos is a popular trailing plant that grows quickly and tolerates a wide range of conditions.",
+      "tags": [
+        "Indoor",
+        "Trailing",
+        "Air Purifier"
+      ],
+      "images": [
+        "./images/products/pothos-1.jpg",
+        "./images/products/pothos-2.jpg",
+        "./images/products/pothos-3.jpg",
+        "./images/products/pothos-4.webp"
+      ],
+      "rating": 4.9,
+      "reviews": [],
+      "stock": 40,
+      "productType": "Plant",
+      "size": "45-60cm",
+      "waterIntake": "Once a week",
+      "sunlightRequired": "Low to bright indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Liquid fertilizer every 2 months",
+      "createdAt": "2025-03-17T07:03:41.322Z",
+      "updatedAt": "2025-03-17T07:03:41.322Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94d3ff863bce43bfd9e",
+      "name": "Spider Plant (Chlorophytum comosum)",
+      "category": [
+        "67d48a9e2e309466cf0a0f4e"
+      ],
+      "subCategory": "Air Purifying",
+      "price": 349,
+      "details": "Spider Plants are excellent air-purifiers and easy to propagate with their baby offshoots.",
+      "tags": [
+        "Indoor",
+        "Air Purifier"
+      ],
+      "images": [
+        "./images/products/spider-plant-1.jpg",
+        "./images/products/spider-plant-2.jpg",
+        "./images/products/spider-plant-3.jpg",
+        "./images/products/spider-plant-4.webp"
+      ],
+      "rating": 4.8,
+      "reviews": [],
+      "stock": 26,
+      "productType": "Plant",
+      "size": "30-45cm",
+      "waterIntake": "Weekly",
+      "sunlightRequired": "Indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Water-soluble fertilizer every 2 months",
+      "createdAt": "2025-03-17T07:03:41.364Z",
+      "updatedAt": "2025-03-17T07:03:41.364Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94d3ff863bce43bfda0",
+      "name": "Aloe Vera",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Succulent",
+      "price": 399,
+      "details": "Aloe Vera is a healing succulent known for its medicinal properties and low maintenance needs.",
+      "tags": [
+        "Indoor",
+        "Succulent",
+        "Medicinal"
+      ],
+      "images": [
+        "./images/products/aloe-vera-1.jpg",
+        "./images/products/aloe-vera-2.jpg",
+        "./images/products/aloe-vera-3.jpg",
+        "./images/products/aloe-vera-4.webp"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "stock": 28,
+      "productType": "Plant",
+      "size": "20-30cm",
+      "waterIntake": "Every 2-3 weeks",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Cactus fertilizer every 3 months",
+      "createdAt": "2025-03-17T07:03:41.406Z",
+      "updatedAt": "2025-03-17T07:03:41.406Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94d3ff863bce43bfda2",
+      "name": "Money Plant (Pilea peperomioides)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Indoor Decor",
+      "price": 449,
+      "details": "Round leaves and compact size make the Money Plant a popular indoor decor option.",
+      "tags": [
+        "Indoor",
+        "Low Maintenance",
+        "Decor"
+      ],
+      "images": [
+        "./images/products/money-plant-1.jpg",
+        "./images/products/pothos-5.jpg",
+        "./images/products/pothos-6.jpg",
+        "./images/products/pothos-4.webp"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "stock": 30,
+      "productType": "Plant",
+      "size": "20-30cm",
+      "waterIntake": "Once a week",
+      "sunlightRequired": "Indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Liquid fertilizer every 3 months",
+      "createdAt": "2025-03-17T07:03:41.448Z",
+      "updatedAt": "2025-03-17T07:03:41.448Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94d3ff863bce43bfda4",
+      "name": "Calathea (Prayer Plant)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Indoor Decor",
+      "price": 699,
+      "details": "Beautiful foliage with unique leaf patterns that fold at night, adding a dynamic look to interiors.",
+      "tags": [
+        "Indoor",
+        "Decor",
+        "Patterned Leaves"
+      ],
+      "images": [
+        "./images/products/calathea-1.jpg",
+        "./images/products/calathea-2.jpg",
+        "./images/products/calathea-3.jpg",
+        "./images/products/calathea-4.webp"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "stock": 18,
+      "productType": "Plant",
+      "size": "30-45cm",
+      "waterIntake": "Twice a week",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Liquid fertilizer every 2 months",
+      "createdAt": "2025-03-17T07:03:41.492Z",
+      "updatedAt": "2025-03-17T07:03:41.492Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94d3ff863bce43bfda6",
+      "name": "Croton (Codiaeum variegatum)",
+      "category": [
+        "67d48a9e2e309466cf0a0f4a"
+      ],
+      "subCategory": "Outdoor",
+      "price": 499,
+      "details": "Vivid multicolored leaves make Crotons a stunning addition to gardens and patios.",
+      "tags": [
+        "Outdoor",
+        "Colorful Foliage"
+      ],
+      "images": [
+        "./images/products/croton-1.jpg",
+        "./images/products/croton-2.jpg",
+        "./images/products/croton-3.jpg",
+        "./images/products/croton-4.webp"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "stock": 14,
+      "productType": "Plant",
+      "size": "45-60cm",
+      "waterIntake": "Twice a week",
+      "sunlightRequired": "Bright sunlight",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Slow-release fertilizer every 4 months",
+      "createdAt": "2025-03-17T07:03:41.533Z",
+      "updatedAt": "2025-03-17T07:03:41.533Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94d3ff863bce43bfda8",
+      "name": "Chinese Evergreen (Aglaonema)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Low Maintenance",
+      "price": 549,
+      "details": "Colorful, patterned foliage with tolerance to low light and irregular watering.",
+      "tags": [
+        "Indoor",
+        "Low Maintenance"
+      ],
+      "images": [
+        "./images/products/aglaonema-1.jpg",
+        "./images/products/aglaonema-2.jpg",
+        "./images/products/aglaonema-3.jpg",
+        "./images/products/aglaonema-4.webp"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "stock": 20,
+      "productType": "Plant",
+      "size": "30-45cm",
+      "waterIntake": "Once every 10 days",
+      "sunlightRequired": "Low to medium light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Liquid fertilizer every 3 months",
+      "createdAt": "2025-03-17T07:03:41.571Z",
+      "updatedAt": "2025-03-17T07:03:41.571Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94d3ff863bce43bfdaa",
+      "name": "Lucky Bamboo (Dracaena sanderiana)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Indoor Decor",
+      "price": 299,
+      "details": "Symbol of luck and prosperity, perfect for desks and tabletops.",
+      "tags": [
+        "Indoor",
+        "Decor",
+        "Lucky Plant"
+      ],
+      "images": [
+        "./images/products/bamboo-1.jpg",
+        "./images/products/bamboo-2.jpg",
+        "./images/products/bamboo-3.jpg",
+        "./images/products/bamboo-4.webp"
+      ],
+      "rating": 4.8,
+      "reviews": [],
+      "stock": 40,
+      "productType": "Plant",
+      "size": "20-30cm",
+      "waterIntake": "Change water every 10-12 days",
+      "sunlightRequired": "Indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Liquid fertilizer every 3 months",
+      "createdAt": "2025-03-17T07:03:41.608Z",
+      "updatedAt": "2025-03-17T07:03:41.608Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94d3ff863bce43bfdac",
+      "name": "Philodendron Heartleaf",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Trailing Plants",
+      "price": 499,
+      "details": "Heart-shaped leaves and trailing growth make it a great option for shelves.",
+      "tags": [
+        "Indoor",
+        "Trailing",
+        "Low Maintenance"
+      ],
+      "images": [
+        "./images/products/philodendron-1.jpg",
+        "./images/products/philodendron-2.jpg",
+        "./images/products/philodendron-3.jpg",
+        "./images/products/philodendron-4.webp"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "stock": 25,
+      "productType": "Plant",
+      "size": "45-60cm",
+      "waterIntake": "Weekly",
+      "sunlightRequired": "Indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Liquid fertilizer every 2 months",
+      "createdAt": "2025-03-17T07:03:41.645Z",
+      "updatedAt": "2025-03-17T07:03:41.645Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94d3ff863bce43bfdae",
+      "name": "Anthurium (Flamingo Flower)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47",
+        "67d48a9e2e309466cf0a0f4c"
+      ],
+      "subCategory": "Flowering",
+      "price": 899,
+      "details": "Glossy flowers and heart-shaped leaves make Anthurium a perfect statement plant.",
+      "tags": [
+        "Indoor",
+        "Flowering",
+        "Decor"
+      ],
+      "images": [
+        "./images/products/anthurium-1.jpg",
+        "./images/products/anthurium-2.jpg",
+        "./images/products/anthurium-3.jpg",
+        "./images/products/anthurium-4.webp"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "stock": 15,
+      "productType": "Plant",
+      "size": "45-60cm",
+      "waterIntake": "Weekly",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Flowering fertilizer every 2 months",
+      "createdAt": "2025-03-17T07:03:41.685Z",
+      "updatedAt": "2025-03-17T07:03:41.685Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94d3ff863bce43bfdb0",
+      "name": "Kalanchoe (Kalanchoe blossfeldiana)",
+      "category": [
+        "67d48a9e2e309466cf0a0f4c"
+      ],
+      "subCategory": "Flowering",
+      "price": 499,
+      "details": "Compact succulent with bright colorful flowers, great for sunny windowsills.",
+      "tags": [
+        "Indoor",
+        "Flowering",
+        "Succulent"
+      ],
+      "images": [
+        "./images/products/kalanchoe-1.jpg",
+        "./images/products/kalanchoe-2.jpg",
+        "./images/products/kalanchoe-3.jpg",
+        "./images/products/kalanchoe-4.webp"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "stock": 20,
+      "productType": "Plant",
+      "size": "20-30cm",
+      "waterIntake": "Every 10-14 days",
+      "sunlightRequired": "Bright sunlight",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Succulent fertilizer every 3 months",
+      "createdAt": "2025-03-17T07:03:41.723Z",
+      "updatedAt": "2025-03-17T07:03:41.723Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94d3ff863bce43bfdb2",
+      "name": "Syngonium (Arrowhead Plant)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Trailing Plants",
+      "price": 399,
+      "details": "Fast-growing plant with arrow-shaped leaves that work well as tabletop or hanging plant.",
+      "tags": [
+        "Indoor",
+        "Trailing"
+      ],
+      "images": [
+        "./images/products/syngonium-1.jpg",
+        "./images/products/syngonium-2.jpg",
+        "./images/products/syngonium-3.jpg",
+        "./images/products/syngonium-4.webp"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "stock": 30,
+      "productType": "Plant",
+      "size": "30-45cm",
+      "waterIntake": "Weekly",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Liquid fertilizer every 2 months",
+      "createdAt": "2025-03-17T07:03:41.762Z",
+      "updatedAt": "2025-03-17T07:03:41.762Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94d3ff863bce43bfdb4",
+      "name": "Spider Plant (Chlorophytum comosum)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47",
+        "67d48a9e2e309466cf0a0f4e"
+      ],
+      "subCategory": "Air Purifying",
+      "price": 349,
+      "details": "Spider Plant is an excellent air-purifying plant with arching green and white leaves, known for producing baby 'pups'.",
+      "tags": [
+        "Indoor",
+        "Air Purifying",
+        "Easy Care"
+      ],
+      "images": [
+        "./images/products/spider-plant-1.jpg",
+        "./images/products/spider-plant-2.jpg",
+        "./images/products/spider-plant-3.jpg",
+        "./images/products/spider-plant-4.webp"
+      ],
+      "rating": 4.8,
+      "reviews": [],
+      "stock": 35,
+      "productType": "Plant",
+      "size": "30-45cm",
+      "waterIntake": "Once a week",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Water-soluble fertilizer every 3 months",
+      "createdAt": "2025-03-17T07:03:41.801Z",
+      "updatedAt": "2025-03-17T07:03:41.801Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94d3ff863bce43bfdb6",
+      "name": "Arrowhead Vine (Syngonium podophyllum)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Indoor Decor",
+      "price": 399,
+      "details": "Elegant arrow-shaped leaves in shades of green and pink, great as a desk or shelf plant.",
+      "tags": [
+        "Indoor",
+        "Decor",
+        "Trailing"
+      ],
+      "images": [
+        "./images/products/arrowhead-vine-1.jpg",
+        "./images/products/arrowhead-vine-2.jpg",
+        "./images/products/arrowhead-vine-3.jpg",
+        "./images/products/arrowhead-vine-4.webp"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "stock": 22,
+      "productType": "Plant",
+      "size": "20-30cm",
+      "waterIntake": "Weekly",
+      "sunlightRequired": "Low to medium light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Liquid fertilizer every 3 months",
+      "createdAt": "2025-03-17T07:03:41.840Z",
+      "updatedAt": "2025-03-17T07:03:41.840Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94d3ff863bce43bfdb8",
+      "name": "Rex Begonia",
+      "category": [
+        "67d48a9e2e309466cf0a0f4c"
+      ],
+      "subCategory": "Flowering",
+      "price": 549,
+      "details": "Known for its striking, colorful, patterned leaves, Rex Begonia adds vibrancy to any space.",
+      "tags": [
+        "Indoor",
+        "Colorful Foliage"
+      ],
+      "images": [
+        "./images/products/rex-begonia-1.jpg",
+        "./images/products/rex-begonia-2.jpg",
+        "./images/products/rex-begonia-3.jpg",
+        "./images/products/rex-begonia-4.webp"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "stock": 16,
+      "productType": "Plant",
+      "size": "20-30cm",
+      "waterIntake": "Twice a week",
+      "sunlightRequired": "Filtered indirect light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Leafy plant fertilizer every 2 months",
+      "createdAt": "2025-03-17T07:03:41.878Z",
+      "updatedAt": "2025-03-17T07:03:41.878Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94d3ff863bce43bfdba",
+      "name": "Peperomia Green",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Low Maintenance",
+      "price": 449,
+      "details": "Compact and easy to care for, Peperomia is perfect for desks and small spaces.",
+      "tags": [
+        "Indoor",
+        "Low Maintenance"
+      ],
+      "images": [
+        "./images/products/peperomia-green-1.jpg",
+        "./images/products/peperomia-green-2.jpg",
+        "./images/products/peperomia-green-3.jpg",
+        "./images/products/peperomia-green-4.webp"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "stock": 24,
+      "productType": "Plant",
+      "size": "20-30cm",
+      "waterIntake": "Every 10 days",
+      "sunlightRequired": "Indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Any fertilizer every 3 months",
+      "createdAt": "2025-03-17T07:03:41.916Z",
+      "updatedAt": "2025-03-17T07:03:41.916Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94d3ff863bce43bfdbc",
+      "name": "Coleus (Painted Nettle)",
+      "category": [
+        "67d48a9e2e309466cf0a0f4a"
+      ],
+      "subCategory": "Outdoor",
+      "price": 399,
+      "details": "Vibrantly colored foliage in a variety of patterns makes Coleus a favorite outdoor plant.",
+      "tags": [
+        "Outdoor",
+        "Colorful Foliage"
+      ],
+      "images": [
+        "./images/products/coleus-1.jpg",
+        "./images/products/coleus-2.jpg",
+        "./images/products/coleus-3.jpg",
+        "./images/products/coleus-4.webp"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "stock": 19,
+      "productType": "Plant",
+      "size": "45-60cm",
+      "waterIntake": "Twice a week",
+      "sunlightRequired": "Partial shade",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Any fertilizer every 2 months",
+      "createdAt": "2025-03-17T07:03:41.961Z",
+      "updatedAt": "2025-03-17T07:03:41.961Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94e3ff863bce43bfdbe",
+      "name": "Bird’s Nest Fern (Asplenium nidus)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Indoor Decor",
+      "price": 599,
+      "details": "Elegant fern with wavy fronds, perfect for humid indoor environments like bathrooms.",
+      "tags": [
+        "Indoor",
+        "Fern",
+        "Humidity Loving"
+      ],
+      "images": [
+        "./images/products/bird-nest-fern-1.jpg",
+        "./images/products/bird-nest-fern-2.jpg",
+        "./images/products/bird-nest-fern-3.jpg",
+        "./images/products/bird-nest-fern-4.webp"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "stock": 15,
+      "productType": "Plant",
+      "size": "55-70cm",
+      "waterIntake": "Twice a week",
+      "sunlightRequired": "Low to medium light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Fern fertilizer every 3 months",
+      "createdAt": "2025-03-17T07:03:42.001Z",
+      "updatedAt": "2025-03-17T07:03:42.001Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94e3ff863bce43bfdc0",
+      "name": "Cordyline (Ti Plant)",
+      "category": [
+        "67d48a9e2e309466cf0a0f4a"
+      ],
+      "subCategory": "Outdoor",
+      "price": 699,
+      "details": "Tall ornamental plant with red and purple foliage, great for gardens and balconies.",
+      "tags": [
+        "Outdoor",
+        "Colorful Foliage"
+      ],
+      "images": [
+        "./images/products/cordyline-1.jpg",
+        "./images/products/cordyline-2.jpg",
+        "./images/products/cordyline-3.jpg",
+        "./images/products/cordyline-4.webp"
+      ],
+      "rating": 4.3,
+      "reviews": [],
+      "stock": 12,
+      "productType": "Plant",
+      "size": "55-70cm",
+      "waterIntake": "Twice a week",
+      "sunlightRequired": "Bright indirect to direct light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Slow-release fertilizer every 4 months",
+      "createdAt": "2025-03-17T07:03:42.050Z",
+      "updatedAt": "2025-03-17T07:03:42.050Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94e3ff863bce43bfdc2",
+      "name": "Areca Palm (Dypsis lutescens)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47",
+        "67d48a9e2e309466cf0a0f4e"
+      ],
+      "subCategory": "Air Purifying",
+      "price": 899,
+      "details": "Elegant indoor palm that improves air quality and adds tropical vibes to interiors.",
+      "tags": [
+        "Indoor",
+        "Air Purifying",
+        "Palm"
+      ],
+      "images": [
+        "./images/products/areca-palm-1.jpg",
+        "./images/products/areca-palm-2.jpg",
+        "./images/products/areca-palm-3.jpg",
+        "./images/products/areca-palm-4.webp"
+      ],
+      "rating": 4.8,
+      "reviews": [],
+      "stock": 18,
+      "productType": "Plant",
+      "size": "55-70cm",
+      "waterIntake": "Twice a week",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Any fertilizer every 3 months",
+      "createdAt": "2025-03-17T07:03:42.090Z",
+      "updatedAt": "2025-03-17T07:03:42.090Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94e3ff863bce43bfdc4",
+      "name": "Zebra Plant (Aphelandra squarrosa)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Flowering",
+      "price": 549,
+      "details": "Unique striped leaves with bright yellow flower bracts, perfect for display areas.",
+      "tags": [
+        "Indoor",
+        "Flowering",
+        "Patterned Leaves"
+      ],
+      "images": [
+        "./images/products/zebra-plant-1.jpg",
+        "./images/products/zebra-plant-2.jpg",
+        "./images/products/zebra-plant-3.jpg",
+        "./images/products/zebra-plant-4.webp"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "stock": 10,
+      "productType": "Plant",
+      "size": "45-60cm",
+      "waterIntake": "Weekly",
+      "sunlightRequired": "Filtered indirect light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Flowering fertilizer every 2 months",
+      "createdAt": "2025-03-17T07:03:42.128Z",
+      "updatedAt": "2025-03-17T07:03:42.128Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d7c94e3ff863bce43bfdc6",
+      "name": "Anthurium (Flamingo Flower)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47",
+        "67d48a9e2e309466cf0a0f4c"
+      ],
+      "subCategory": "Flowering",
+      "price": 899,
+      "details": "Glossy flowers and heart-shaped leaves make Anthurium a perfect statement plant.",
+      "tags": [
+        "Indoor",
+        "Flowering",
+        "Decor"
+      ],
+      "images": [
+        "./images/products/anthurium-1.jpg",
+        "./images/products/anthurium-2.jpg",
+        "./images/products/anthurium-3.jpg",
+        "./images/products/anthurium-4.webp"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "stock": 15,
+      "productType": "Plant",
+      "size": "45-60cm",
+      "waterIntake": "Weekly",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Flowering fertilizer every 2 months",
+      "createdAt": "2025-03-17T07:03:42.167Z",
+      "updatedAt": "2025-03-17T07:03:42.167Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5a93c52c4bc0fce788",
+      "name": "ZZ Plant (Zamioculcas zamiifolia)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Low Maintenance",
+      "price": 599,
+      "details": "The ZZ Plant is a classic indoor houseplant known for its ability to thrive in neglect. Its thick, waxy green leaves add elegance to any indoor space. Perfect for low-light corners and offices.",
+      "tags": [
+        "Indoor",
+        "Low Maintenance",
+        "Air Purifier"
+      ],
+      "images": [
+        "./images/products/zz-plant-1.webp",
+        "./images/products/zz-plant-2.webp",
+        "./images/products/zz-plant-3.webp",
+        "./images/products/zz-plant-4.webp"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "stock": 25,
+      "productType": "Plant",
+      "size": "30-45cm",
+      "waterIntake": "Once every 2 weeks or when soil is dry",
+      "sunlightRequired": "Low to medium indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Water-soluble fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:06:02.671Z",
+      "updatedAt": "2025-03-18T07:06:02.671Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5a93c52c4bc0fce78b",
+      "name": "Concrete Minimalist Planter",
+      "category": [
+        "67d48a9e2e309466cf0a0f52"
+      ],
+      "subCategory": "Concrete Planter",
+      "price": 499,
+      "details": "Raw finish concrete planter with a minimal design for modern decor. Suitable for cacti and succulents, includes drainage hole.",
+      "tags": [
+        "concrete",
+        "minimalist",
+        "modern"
+      ],
+      "images": [
+        "./images/products/planter-9.webp",
+        "./images/products/planter-10.webp",
+        "./images/products/planter-11.webp",
+        "./images/products/planter-12.webp"
+      ],
+      "rating": 4.6,
+      "reviews": [
+        "Love the industrial look, very chic!",
+        "Perfect size for my desk cactus. Sturdy build."
+      ],
+      "stock": 50,
+      "productType": "Planter",
+      "size": "12cm",
+      "color": "Grey",
+      "createdAt": "2025-03-18T07:06:02.672Z",
+      "updatedAt": "2025-03-18T07:06:02.672Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5a93c52c4bc0fce78c",
+      "name": "Hanging Metal Planter (Gold)",
+      "category": [
+        "67d48a9e2e309466cf0a0f52"
+      ],
+      "subCategory": "Hanging Planter",
+      "price": 699,
+      "details": "Elegant golden metal hanging planter for small indoor plants. Adds a modern touch to your balcony or living space.",
+      "tags": [
+        "hanging",
+        "metal",
+        "gold",
+        "decorative"
+      ],
+      "images": [
+        "./images/products/planter-13.webp",
+        "./images/products/planter-14.webp",
+        "./images/products/planter-15.webp",
+        "./images/products/planter-16.webp"
+      ],
+      "rating": 4.8,
+      "reviews": [
+        "Looks stunning hanging by my window!",
+        "Very sturdy and shiny, holds small pots easily."
+      ],
+      "stock": 20,
+      "productType": "Planter",
+      "size": "15cm",
+      "color": "Gold",
+      "createdAt": "2025-03-18T07:06:02.672Z",
+      "updatedAt": "2025-03-18T07:06:02.672Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5a93c52c4bc0fce78d",
+      "name": "Plastic Self-Watering Pot (White)",
+      "category": [
+        "67d48a9e2e309466cf0a0f52"
+      ],
+      "subCategory": "Plastic Planter",
+      "price": 299,
+      "details": "Smart self-watering plastic pot with detachable base. Great for indoor plants with low maintenance needs.",
+      "tags": [
+        "self-watering",
+        "plastic",
+        "indoor"
+      ],
+      "images": [
+        "./images/products/planter-17.webp",
+        "./images/products/planter-18.webp",
+        "./images/products/planter-19.webp",
+        "./images/products/planter-20.webp"
+      ],
+      "rating": 4.4,
+      "reviews": [
+        "Perfect for my busy schedule, plants stay hydrated!",
+        "Looks neat and simple, very functional."
+      ],
+      "stock": 60,
+      "productType": "Planter",
+      "size": "16cm",
+      "color": "White",
+      "createdAt": "2025-03-18T07:06:02.672Z",
+      "updatedAt": "2025-03-18T07:06:02.672Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5a93c52c4bc0fce78e",
+      "name": "Hand-painted Ceramic Pot (Floral Design)",
+      "category": [
+        "67d48a9e2e309466cf0a0f52"
+      ],
+      "subCategory": "Ceramic Planter",
+      "price": 649,
+      "details": "Charming hand-painted ceramic pot with colorful floral patterns. Perfect to brighten up your garden or balcony.",
+      "tags": [
+        "hand-painted",
+        "ceramic",
+        "decorative"
+      ],
+      "images": [
+        "./images/products/planter-21.webp",
+        "./images/products/planter-22.webp",
+        "./images/products/planter-23.webp",
+        "./images/products/planter-24.webp"
+      ],
+      "rating": 4.9,
+      "reviews": [
+        "Such a beautiful design, makes my plants look special!",
+        "Gorgeous and well-made, great for gifting."
+      ],
+      "stock": 25,
+      "productType": "Planter",
+      "size": "20cm",
+      "color": "Multicolor",
+      "createdAt": "2025-03-18T07:06:02.672Z",
+      "updatedAt": "2025-03-18T07:06:02.672Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5a93c52c4bc0fce78f",
+      "name": "Rectangular Balcony Rail Planter (Green)",
+      "category": [
+        "67d48a9e2e309466cf0a0f52"
+      ],
+      "subCategory": "Balcony Planter",
+      "price": 599,
+      "details": "Durable rectangular railing planter for balconies. Made from weather-resistant plastic and includes metal hooks.",
+      "tags": [
+        "balcony",
+        "rail",
+        "plastic"
+      ],
+      "images": [
+        "./images/products/planter-25.webp",
+        "./images/products/planter-26.webp",
+        "./images/products/planter-27.webp",
+        "./images/products/planter-28.webp"
+      ],
+      "rating": 4.3,
+      "reviews": [
+        "Fits perfectly on my balcony railing, looks lovely with flowers!",
+        "Good quality plastic, hooks are strong."
+      ],
+      "stock": 35,
+      "productType": "Planter",
+      "size": "40cm x 20cm",
+      "color": "Green",
+      "createdAt": "2025-03-18T07:06:02.672Z",
+      "updatedAt": "2025-03-18T07:06:02.672Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5a93c52c4bc0fce789",
+      "name": "Terracotta Cylinder Planter",
+      "category": [
+        "67d48a9e2e309466cf0a0f52"
+      ],
+      "subCategory": "Terracotta Planter",
+      "price": 399,
+      "details": "Classic hand-crafted terracotta planter with a smooth matte finish, perfect for succulents and small plants. Ideal for natural aesthetics and breathability.",
+      "tags": [
+        "terracotta",
+        "cylinder",
+        "indoor",
+        "breathable"
+      ],
+      "images": [
+        "./images/products/planter-1.webp",
+        "./images/products/planter-2.webp",
+        "./images/products/planter-3.webp",
+        "./images/products/planter-4.webp"
+      ],
+      "rating": 4.5,
+      "reviews": [
+        "Beautiful rustic look, fits perfectly on my window sill!",
+        "Very sturdy and great for my succulents, allows good drainage."
+      ],
+      "stock": 40,
+      "productType": "Planter",
+      "size": "15cm",
+      "color": "Natural Terracotta",
+      "createdAt": "2025-03-18T07:06:02.672Z",
+      "updatedAt": "2025-03-18T07:06:02.672Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5a93c52c4bc0fce78a",
+      "name": "Ceramic Glazed Blue Pot",
+      "category": [
+        "67d48a9e2e309466cf0a0f52"
+      ],
+      "subCategory": "Ceramic Planter",
+      "price": 549,
+      "details": "Elegant glazed ceramic planter with rich blue finish, adding sophistication to home decor. Suitable for both indoor and balcony plants.",
+      "tags": [
+        "ceramic",
+        "glazed",
+        "indoor",
+        "decorative"
+      ],
+      "images": [
+        "./images/products/planter-5.webp",
+        "./images/products/planter-6.webp",
+        "./images/products/planter-7.webp",
+        "./images/products/planter-8.webp"
+      ],
+      "rating": 4.7,
+      "reviews": [
+        "Absolutely stunning color, adds charm to my living room!",
+        "Perfect size for tabletop plants, love the glossy finish."
+      ],
+      "stock": 30,
+      "productType": "Planter",
+      "size": "18cm",
+      "color": "Blue",
+      "createdAt": "2025-03-18T07:06:02.672Z",
+      "updatedAt": "2025-03-18T07:06:02.672Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5b93c52c4bc0fce7a3",
+      "name": "Snake Plant (Sansevieria trifasciata)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47",
+        "67d48a9e2e309466cf0a0f4e"
+      ],
+      "subCategory": "Air Purifying",
+      "price": 499,
+      "details": "Known for its upright leaves, Snake Plant is an excellent air-purifier that tolerates low light and infrequent watering, perfect for busy people.",
+      "tags": [
+        "Indoor",
+        "Air Purifier",
+        "Low Maintenance"
+      ],
+      "images": [
+        "./images/products/snake-plant-1.jpg",
+        "./images/products/snake-plant-2.jpg",
+        "./images/products/snake-plant-3.jpg",
+        "./images/products/snake-plant-4.webp"
+      ],
+      "rating": 4.8,
+      "reviews": [],
+      "stock": 30,
+      "productType": "Plant",
+      "size": "45-60cm",
+      "waterIntake": "Every 10-14 days",
+      "sunlightRequired": "Indirect to low light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Water-soluble fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:06:03.534Z",
+      "updatedAt": "2025-03-18T07:06:03.534Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5b93c52c4bc0fce7a5",
+      "name": "Peace Lily (Spathiphyllum)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47",
+        "67d48a9e2e309466cf0a0f4c"
+      ],
+      "subCategory": "Flowering",
+      "price": 799,
+      "details": "Elegant white flowers and glossy leaves make Peace Lily a beautiful air-purifier. Great for shaded indoor spaces.",
+      "tags": [
+        "Indoor",
+        "Flowering",
+        "Air Purifier"
+      ],
+      "images": [
+        "./images/products/peace-lily-1.jpg",
+        "./images/products/peace-lily-2.jpg",
+        "./images/products/peace-lily-3.jpg",
+        "./images/products/peace-lily-4.jpg"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "stock": 20,
+      "productType": "Plant",
+      "size": "30-45cm",
+      "waterIntake": "Weekly when topsoil dries",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Liquid fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:06:03.775Z",
+      "updatedAt": "2025-03-18T07:06:03.775Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5b93c52c4bc0fce7a7",
+      "name": "Areca Palm (Dypsis lutescens)",
+      "category": [
+        "67d48a9e2e309466cf0a0f4a"
+      ],
+      "subCategory": "Outdoor",
+      "price": 999,
+      "details": "Tall feathery foliage, ideal for patios and living rooms. A natural humidifier and air-purifier.",
+      "tags": [
+        "Outdoor",
+        "Palm",
+        "Air Purifier"
+      ],
+      "images": [
+        "./images/products/areca-palm-1.webp",
+        "./images/products/areca-palm-2.webp",
+        "./images/products/areca-palm-3.webp",
+        "./images/products/areca-palm-4.webp"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "stock": 15,
+      "productType": "Plant",
+      "size": "55-70cm",
+      "waterIntake": "Twice a week",
+      "sunlightRequired": "Filtered bright sunlight",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Water-soluble fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:06:03.805Z",
+      "updatedAt": "2025-03-18T07:06:03.805Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5b93c52c4bc0fce7a9",
+      "name": "Boston Fern (Nephrolepis exaltata)",
+      "category": [
+        "67d48a9e2e309466cf0a0f4e"
+      ],
+      "subCategory": "Air Purifying",
+      "price": 599,
+      "details": "Boston Fern adds lush greenery and is great for humid indoor spaces like bathrooms.",
+      "tags": [
+        "Indoor",
+        "Air Purifier"
+      ],
+      "images": [
+        "./images/products/boston-fern-1.jpg",
+        "./images/products/boston-fern-2.jpg",
+        "./images/products/boston-fern-3.jpg",
+        "./images/products/boston-fern-4.webp"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "stock": 18,
+      "productType": "Plant",
+      "size": "30-45cm",
+      "waterIntake": "2-3 times a week",
+      "sunlightRequired": "Indirect light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Liquid fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:06:03.835Z",
+      "updatedAt": "2025-03-18T07:06:03.835Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5a93c52c4bc0fce790",
+      "name": "Macrame Hanging Planter (Cotton)",
+      "category": [
+        "67d48a9e2e309466cf0a0f52"
+      ],
+      "subCategory": "Hanging Planter",
+      "price": 499,
+      "details": "Stylish macrame hanging planter made from 100% cotton. Perfect for adding a boho vibe to any indoor space.",
+      "tags": [
+        "macrame",
+        "hanging",
+        "boho"
+      ],
+      "images": [
+        "./images/products/planter-29.webp",
+        "./images/products/planter-30.webp",
+        "./images/products/planter-31.webp",
+        "./images/products/planter-32.webp"
+      ],
+      "rating": 4.8,
+      "reviews": [
+        "Such a pretty addition to my room. Love the boho look!",
+        "Strong and well-made, holds my pot securely."
+      ],
+      "stock": 45,
+      "productType": "Planter",
+      "size": "Adjustable (fits pots 10-20cm)",
+      "color": "Natural Cotton",
+      "createdAt": "2025-03-18T07:06:02.672Z",
+      "updatedAt": "2025-03-18T07:06:02.672Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5b93c52c4bc0fce7ab",
+      "name": "Fiddle Leaf Fig (Ficus lyrata)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Statement Plants",
+      "price": 1499,
+      "details": "Known for its big violin-shaped leaves, this plant adds bold green touch to interiors.",
+      "tags": [
+        "Indoor",
+        "Statement"
+      ],
+      "images": [
+        "./images/products/fiddle-leaf-fig-1.jpg",
+        "./images/products/fiddle-leaf-fig-2.jpg",
+        "./images/products/fiddle-leaf-fig-3.jpg",
+        "./images/products/fiddle-leaf-fig-4.webp"
+      ],
+      "rating": 4.3,
+      "reviews": [],
+      "stock": 10,
+      "productType": "Plant",
+      "size": "45-60cm",
+      "waterIntake": "Weekly",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Water-soluble fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:06:03.865Z",
+      "updatedAt": "2025-03-18T07:06:03.865Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5b93c52c4bc0fce7ad",
+      "name": "Rubber Plant (Ficus elastica)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Indoor Decor",
+      "price": 799,
+      "details": "The rubber plant is popular for its shiny, broad leaves that purify air and brighten up spaces.",
+      "tags": [
+        "Indoor",
+        "Decor",
+        "Air Purifier"
+      ],
+      "images": [
+        "./images/products/rubber-plant-1.jpg",
+        "./images/products/rubber-plant-2.jpg",
+        "./images/products/rubber-plant-3.jpg",
+        "./images/products/rubber-plant-4.webp"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "stock": 16,
+      "productType": "Plant",
+      "size": "55-70cm",
+      "waterIntake": "Once a week",
+      "sunlightRequired": "Medium to bright indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Any fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:06:03.895Z",
+      "updatedAt": "2025-03-18T07:06:03.895Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5b93c52c4bc0fce7af",
+      "name": "Jade Plant (Crassula ovata)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Succulent",
+      "price": 399,
+      "details": "A symbol of good luck, Jade Plant is a compact succulent perfect for tabletops.",
+      "tags": [
+        "Indoor",
+        "Succulent",
+        "Low Maintenance"
+      ],
+      "images": [
+        "./images/products/jade-plant-1.jpg",
+        "./images/products/jade-plant-2.jpg",
+        "./images/products/jade-plant-3.jpg",
+        "./images/products/jade-plant-4.webp"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "stock": 22,
+      "productType": "Plant",
+      "size": "20-30cm",
+      "waterIntake": "Every 2-3 weeks",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Cactus fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:06:03.935Z",
+      "updatedAt": "2025-03-18T07:06:03.935Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5b93c52c4bc0fce7b1",
+      "name": "Pothos (Epipremnum aureum)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Trailing Plants",
+      "price": 349,
+      "details": "Pothos is a popular trailing plant that grows quickly and tolerates a wide range of conditions.",
+      "tags": [
+        "Indoor",
+        "Trailing",
+        "Air Purifier"
+      ],
+      "images": [
+        "./images/products/pothos-1.jpg",
+        "./images/products/pothos-2.jpg",
+        "./images/products/pothos-3.jpg",
+        "./images/products/pothos-4.webp"
+      ],
+      "rating": 4.9,
+      "reviews": [],
+      "stock": 40,
+      "productType": "Plant",
+      "size": "45-60cm",
+      "waterIntake": "Once a week",
+      "sunlightRequired": "Low to bright indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Liquid fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:06:03.968Z",
+      "updatedAt": "2025-03-18T07:06:03.968Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5c93c52c4bc0fce7b3",
+      "name": "Spider Plant (Chlorophytum comosum)",
+      "category": [
+        "67d48a9e2e309466cf0a0f4e"
+      ],
+      "subCategory": "Air Purifying",
+      "price": 349,
+      "details": "Spider Plants are excellent air-purifiers and easy to propagate with their baby offshoots.",
+      "tags": [
+        "Indoor",
+        "Air Purifier"
+      ],
+      "images": [
+        "./images/products/spider-plant-1.jpg",
+        "./images/products/spider-plant-2.jpg",
+        "./images/products/spider-plant-3.jpg",
+        "./images/products/spider-plant-4.webp"
+      ],
+      "rating": 4.8,
+      "reviews": [],
+      "stock": 26,
+      "productType": "Plant",
+      "size": "30-45cm",
+      "waterIntake": "Weekly",
+      "sunlightRequired": "Indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Water-soluble fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:06:04.008Z",
+      "updatedAt": "2025-03-18T07:06:04.008Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5c93c52c4bc0fce7b5",
+      "name": "Aloe Vera",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Succulent",
+      "price": 399,
+      "details": "Aloe Vera is a healing succulent known for its medicinal properties and low maintenance needs.",
+      "tags": [
+        "Indoor",
+        "Succulent",
+        "Medicinal"
+      ],
+      "images": [
+        "./images/products/aloe-vera-1.jpg",
+        "./images/products/aloe-vera-2.jpg",
+        "./images/products/aloe-vera-3.jpg",
+        "./images/products/aloe-vera-4.webp"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "stock": 28,
+      "productType": "Plant",
+      "size": "20-30cm",
+      "waterIntake": "Every 2-3 weeks",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Cactus fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:06:04.043Z",
+      "updatedAt": "2025-03-18T07:06:04.043Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5c93c52c4bc0fce7b7",
+      "name": "Money Plant (Pilea peperomioides)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Indoor Decor",
+      "price": 449,
+      "details": "Round leaves and compact size make the Money Plant a popular indoor decor option.",
+      "tags": [
+        "Indoor",
+        "Low Maintenance",
+        "Decor"
+      ],
+      "images": [
+        "./images/products/money-plant-1.jpg",
+        "./images/products/pothos-5.jpg",
+        "./images/products/pothos-6.jpg",
+        "./images/products/pothos-4.webp"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "stock": 30,
+      "productType": "Plant",
+      "size": "20-30cm",
+      "waterIntake": "Once a week",
+      "sunlightRequired": "Indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Liquid fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:06:04.077Z",
+      "updatedAt": "2025-03-18T07:06:04.077Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5c93c52c4bc0fce7b9",
+      "name": "Calathea (Prayer Plant)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Indoor Decor",
+      "price": 699,
+      "details": "Beautiful foliage with unique leaf patterns that fold at night, adding a dynamic look to interiors.",
+      "tags": [
+        "Indoor",
+        "Decor",
+        "Patterned Leaves"
+      ],
+      "images": [
+        "./images/products/calathea-1.jpg",
+        "./images/products/calathea-2.jpg",
+        "./images/products/calathea-3.jpg",
+        "./images/products/calathea-4.webp"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "stock": 18,
+      "productType": "Plant",
+      "size": "30-45cm",
+      "waterIntake": "Twice a week",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Liquid fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:06:04.111Z",
+      "updatedAt": "2025-03-18T07:06:04.111Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5c93c52c4bc0fce7bb",
+      "name": "Croton (Codiaeum variegatum)",
+      "category": [
+        "67d48a9e2e309466cf0a0f4a"
+      ],
+      "subCategory": "Outdoor",
+      "price": 499,
+      "details": "Vivid multicolored leaves make Crotons a stunning addition to gardens and patios.",
+      "tags": [
+        "Outdoor",
+        "Colorful Foliage"
+      ],
+      "images": [
+        "./images/products/croton-1.jpg",
+        "./images/products/croton-2.jpg",
+        "./images/products/croton-3.jpg",
+        "./images/products/croton-4.webp"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "stock": 14,
+      "productType": "Plant",
+      "size": "45-60cm",
+      "waterIntake": "Twice a week",
+      "sunlightRequired": "Bright sunlight",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Slow-release fertilizer every 4 months",
+      "createdAt": "2025-03-18T07:06:04.144Z",
+      "updatedAt": "2025-03-18T07:06:04.144Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5c93c52c4bc0fce7bd",
+      "name": "Chinese Evergreen (Aglaonema)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Low Maintenance",
+      "price": 549,
+      "details": "Colorful, patterned foliage with tolerance to low light and irregular watering.",
+      "tags": [
+        "Indoor",
+        "Low Maintenance"
+      ],
+      "images": [
+        "./images/products/aglaonema-1.jpg",
+        "./images/products/aglaonema-2.jpg",
+        "./images/products/aglaonema-3.jpg",
+        "./images/products/aglaonema-4.webp"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "stock": 20,
+      "productType": "Plant",
+      "size": "30-45cm",
+      "waterIntake": "Once every 10 days",
+      "sunlightRequired": "Low to medium light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Liquid fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:06:04.176Z",
+      "updatedAt": "2025-03-18T07:06:04.176Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5c93c52c4bc0fce7bf",
+      "name": "Lucky Bamboo (Dracaena sanderiana)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Indoor Decor",
+      "price": 299,
+      "details": "Symbol of luck and prosperity, perfect for desks and tabletops.",
+      "tags": [
+        "Indoor",
+        "Decor",
+        "Lucky Plant"
+      ],
+      "images": [
+        "./images/products/bamboo-1.jpg",
+        "./images/products/bamboo-2.jpg",
+        "./images/products/bamboo-3.jpg",
+        "./images/products/bamboo-4.webp"
+      ],
+      "rating": 4.8,
+      "reviews": [],
+      "stock": 40,
+      "productType": "Plant",
+      "size": "20-30cm",
+      "waterIntake": "Change water every 10-12 days",
+      "sunlightRequired": "Indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Liquid fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:06:04.209Z",
+      "updatedAt": "2025-03-18T07:06:04.209Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5c93c52c4bc0fce7c1",
+      "name": "Philodendron Heartleaf",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Trailing Plants",
+      "price": 499,
+      "details": "Heart-shaped leaves and trailing growth make it a great option for shelves.",
+      "tags": [
+        "Indoor",
+        "Trailing",
+        "Low Maintenance"
+      ],
+      "images": [
+        "./images/products/philodendron-1.jpg",
+        "./images/products/philodendron-2.jpg",
+        "./images/products/philodendron-3.jpg",
+        "./images/products/philodendron-4.webp"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "stock": 25,
+      "productType": "Plant",
+      "size": "45-60cm",
+      "waterIntake": "Weekly",
+      "sunlightRequired": "Indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Liquid fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:06:04.243Z",
+      "updatedAt": "2025-03-18T07:06:04.243Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5c93c52c4bc0fce7c3",
+      "name": "Anthurium (Flamingo Flower)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47",
+        "67d48a9e2e309466cf0a0f4c"
+      ],
+      "subCategory": "Flowering",
+      "price": 899,
+      "details": "Glossy flowers and heart-shaped leaves make Anthurium a perfect statement plant.",
+      "tags": [
+        "Indoor",
+        "Flowering",
+        "Decor"
+      ],
+      "images": [
+        "./images/products/anthurium-1.jpg",
+        "./images/products/anthurium-2.jpg",
+        "./images/products/anthurium-3.jpg",
+        "./images/products/anthurium-4.webp"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "stock": 15,
+      "productType": "Plant",
+      "size": "45-60cm",
+      "waterIntake": "Weekly",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Flowering fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:06:04.276Z",
+      "updatedAt": "2025-03-18T07:06:04.276Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5c93c52c4bc0fce7c5",
+      "name": "Kalanchoe (Kalanchoe blossfeldiana)",
+      "category": [
+        "67d48a9e2e309466cf0a0f4c"
+      ],
+      "subCategory": "Flowering",
+      "price": 499,
+      "details": "Compact succulent with bright colorful flowers, great for sunny windowsills.",
+      "tags": [
+        "Indoor",
+        "Flowering",
+        "Succulent"
+      ],
+      "images": [
+        "./images/products/kalanchoe-1.jpg",
+        "./images/products/kalanchoe-2.jpg",
+        "./images/products/kalanchoe-3.jpg",
+        "./images/products/kalanchoe-4.webp"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "stock": 20,
+      "productType": "Plant",
+      "size": "20-30cm",
+      "waterIntake": "Every 10-14 days",
+      "sunlightRequired": "Bright sunlight",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Succulent fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:06:04.308Z",
+      "updatedAt": "2025-03-18T07:06:04.308Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5c93c52c4bc0fce7c7",
+      "name": "Syngonium (Arrowhead Plant)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Trailing Plants",
+      "price": 399,
+      "details": "Fast-growing plant with arrow-shaped leaves that work well as tabletop or hanging plant.",
+      "tags": [
+        "Indoor",
+        "Trailing"
+      ],
+      "images": [
+        "./images/products/syngonium-1.jpg",
+        "./images/products/syngonium-2.jpg",
+        "./images/products/syngonium-3.jpg",
+        "./images/products/syngonium-4.webp"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "stock": 30,
+      "productType": "Plant",
+      "size": "30-45cm",
+      "waterIntake": "Weekly",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Liquid fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:06:04.337Z",
+      "updatedAt": "2025-03-18T07:06:04.337Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5c93c52c4bc0fce7c9",
+      "name": "Spider Plant (Chlorophytum comosum)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47",
+        "67d48a9e2e309466cf0a0f4e"
+      ],
+      "subCategory": "Air Purifying",
+      "price": 349,
+      "details": "Spider Plant is an excellent air-purifying plant with arching green and white leaves, known for producing baby 'pups'.",
+      "tags": [
+        "Indoor",
+        "Air Purifying",
+        "Easy Care"
+      ],
+      "images": [
+        "./images/products/spider-plant-1.jpg",
+        "./images/products/spider-plant-2.jpg",
+        "./images/products/spider-plant-3.jpg",
+        "./images/products/spider-plant-4.webp"
+      ],
+      "rating": 4.8,
+      "reviews": [],
+      "stock": 35,
+      "productType": "Plant",
+      "size": "30-45cm",
+      "waterIntake": "Once a week",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Water-soluble fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:06:04.368Z",
+      "updatedAt": "2025-03-18T07:06:04.368Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5c93c52c4bc0fce7cb",
+      "name": "Arrowhead Vine (Syngonium podophyllum)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Indoor Decor",
+      "price": 399,
+      "details": "Elegant arrow-shaped leaves in shades of green and pink, great as a desk or shelf plant.",
+      "tags": [
+        "Indoor",
+        "Decor",
+        "Trailing"
+      ],
+      "images": [
+        "./images/products/arrowhead-vine-1.jpg",
+        "./images/products/arrowhead-vine-2.jpg",
+        "./images/products/arrowhead-vine-3.jpg",
+        "./images/products/arrowhead-vine-4.webp"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "stock": 22,
+      "productType": "Plant",
+      "size": "20-30cm",
+      "waterIntake": "Weekly",
+      "sunlightRequired": "Low to medium light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Liquid fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:06:04.402Z",
+      "updatedAt": "2025-03-18T07:06:04.402Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5c93c52c4bc0fce7cd",
+      "name": "Rex Begonia",
+      "category": [
+        "67d48a9e2e309466cf0a0f4c"
+      ],
+      "subCategory": "Flowering",
+      "price": 549,
+      "details": "Known for its striking, colorful, patterned leaves, Rex Begonia adds vibrancy to any space.",
+      "tags": [
+        "Indoor",
+        "Colorful Foliage"
+      ],
+      "images": [
+        "./images/products/rex-begonia-1.jpg",
+        "./images/products/rex-begonia-2.jpg",
+        "./images/products/rex-begonia-3.jpg",
+        "./images/products/rex-begonia-4.webp"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "stock": 16,
+      "productType": "Plant",
+      "size": "20-30cm",
+      "waterIntake": "Twice a week",
+      "sunlightRequired": "Filtered indirect light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Leafy plant fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:06:04.438Z",
+      "updatedAt": "2025-03-18T07:06:04.438Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5c93c52c4bc0fce7cf",
+      "name": "Peperomia Green",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Low Maintenance",
+      "price": 449,
+      "details": "Compact and easy to care for, Peperomia is perfect for desks and small spaces.",
+      "tags": [
+        "Indoor",
+        "Low Maintenance"
+      ],
+      "images": [
+        "./images/products/peperomia-green-1.jpg",
+        "./images/products/peperomia-green-2.jpg",
+        "./images/products/peperomia-green-3.jpg",
+        "./images/products/peperomia-green-4.webp"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "stock": 24,
+      "productType": "Plant",
+      "size": "20-30cm",
+      "waterIntake": "Every 10 days",
+      "sunlightRequired": "Indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Any fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:06:04.476Z",
+      "updatedAt": "2025-03-18T07:06:04.476Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5c93c52c4bc0fce7d1",
+      "name": "Coleus (Painted Nettle)",
+      "category": [
+        "67d48a9e2e309466cf0a0f4a"
+      ],
+      "subCategory": "Outdoor",
+      "price": 399,
+      "details": "Vibrantly colored foliage in a variety of patterns makes Coleus a favorite outdoor plant.",
+      "tags": [
+        "Outdoor",
+        "Colorful Foliage"
+      ],
+      "images": [
+        "./images/products/coleus-1.jpg",
+        "./images/products/coleus-2.jpg",
+        "./images/products/coleus-3.jpg",
+        "./images/products/coleus-4.webp"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "stock": 19,
+      "productType": "Plant",
+      "size": "45-60cm",
+      "waterIntake": "Twice a week",
+      "sunlightRequired": "Partial shade",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Any fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:06:04.508Z",
+      "updatedAt": "2025-03-18T07:06:04.508Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5c93c52c4bc0fce7d3",
+      "name": "Bird’s Nest Fern (Asplenium nidus)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Indoor Decor",
+      "price": 599,
+      "details": "Elegant fern with wavy fronds, perfect for humid indoor environments like bathrooms.",
+      "tags": [
+        "Indoor",
+        "Fern",
+        "Humidity Loving"
+      ],
+      "images": [
+        "./images/products/bird-nest-fern-1.jpg",
+        "./images/products/bird-nest-fern-2.jpg",
+        "./images/products/bird-nest-fern-3.jpg",
+        "./images/products/bird-nest-fern-4.webp"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "stock": 15,
+      "productType": "Plant",
+      "size": "55-70cm",
+      "waterIntake": "Twice a week",
+      "sunlightRequired": "Low to medium light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Fern fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:06:04.539Z",
+      "updatedAt": "2025-03-18T07:06:04.539Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5c93c52c4bc0fce7d5",
+      "name": "Cordyline (Ti Plant)",
+      "category": [
+        "67d48a9e2e309466cf0a0f4a"
+      ],
+      "subCategory": "Outdoor",
+      "price": 699,
+      "details": "Tall ornamental plant with red and purple foliage, great for gardens and balconies.",
+      "tags": [
+        "Outdoor",
+        "Colorful Foliage"
+      ],
+      "images": [
+        "./images/products/cordyline-1.jpg",
+        "./images/products/cordyline-2.jpg",
+        "./images/products/cordyline-3.jpg",
+        "./images/products/cordyline-4.webp"
+      ],
+      "rating": 4.3,
+      "reviews": [],
+      "stock": 12,
+      "productType": "Plant",
+      "size": "55-70cm",
+      "waterIntake": "Twice a week",
+      "sunlightRequired": "Bright indirect to direct light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Slow-release fertilizer every 4 months",
+      "createdAt": "2025-03-18T07:06:04.573Z",
+      "updatedAt": "2025-03-18T07:06:04.573Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5c93c52c4bc0fce7d7",
+      "name": "Areca Palm (Dypsis lutescens)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47",
+        "67d48a9e2e309466cf0a0f4e"
+      ],
+      "subCategory": "Air Purifying",
+      "price": 899,
+      "details": "Elegant indoor palm that improves air quality and adds tropical vibes to interiors.",
+      "tags": [
+        "Indoor",
+        "Air Purifying",
+        "Palm"
+      ],
+      "images": [
+        "./images/products/areca-palm-1.jpg",
+        "./images/products/areca-palm-2.jpg",
+        "./images/products/areca-palm-3.jpg",
+        "./images/products/areca-palm-4.webp"
+      ],
+      "rating": 4.8,
+      "reviews": [],
+      "stock": 18,
+      "productType": "Plant",
+      "size": "55-70cm",
+      "waterIntake": "Twice a week",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Any fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:06:04.608Z",
+      "updatedAt": "2025-03-18T07:06:04.608Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5c93c52c4bc0fce7d9",
+      "name": "Zebra Plant (Aphelandra squarrosa)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Flowering",
+      "price": 549,
+      "details": "Unique striped leaves with bright yellow flower bracts, perfect for display areas.",
+      "tags": [
+        "Indoor",
+        "Flowering",
+        "Patterned Leaves"
+      ],
+      "images": [
+        "./images/products/zebra-plant-1.jpg",
+        "./images/products/zebra-plant-2.jpg",
+        "./images/products/zebra-plant-3.jpg",
+        "./images/products/zebra-plant-4.webp"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "stock": 10,
+      "productType": "Plant",
+      "size": "45-60cm",
+      "waterIntake": "Weekly",
+      "sunlightRequired": "Filtered indirect light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Flowering fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:06:04.644Z",
+      "updatedAt": "2025-03-18T07:06:04.644Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d91b5c93c52c4bc0fce7db",
+      "name": "Anthurium (Flamingo Flower)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47",
+        "67d48a9e2e309466cf0a0f4c"
+      ],
+      "subCategory": "Flowering",
+      "price": 899,
+      "details": "Glossy flowers and heart-shaped leaves make Anthurium a perfect statement plant.",
+      "tags": [
+        "Indoor",
+        "Flowering",
+        "Decor"
+      ],
+      "images": [
+        "./images/products/anthurium-1.jpg",
+        "./images/products/anthurium-2.jpg",
+        "./images/products/anthurium-3.jpg",
+        "./images/products/anthurium-4.webp"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "stock": 15,
+      "productType": "Plant",
+      "size": "45-60cm",
+      "waterIntake": "Weekly",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Flowering fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:06:04.681Z",
+      "updatedAt": "2025-03-18T07:06:04.681Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924552efc0c2e660da092",
+      "name": "ZZ Plant (Zamioculcas zamiifolia)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Low Maintenance",
+      "price": 599,
+      "details": "The ZZ Plant is a classic indoor houseplant known for its ability to thrive in neglect. Its thick, waxy green leaves add elegance to any indoor space. Perfect for low-light corners and offices.",
+      "tags": [
+        "Indoor",
+        "Low Maintenance",
+        "Air Purifier"
+      ],
+      "images": [
+        "./images/products/zz-plant-1.webp",
+        "./images/products/zz-plant-2.webp",
+        "./images/products/zz-plant-3.webp",
+        "./images/products/zz-plant-4.webp"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "stock": 25,
+      "productType": "Plant",
+      "size": "30-45cm",
+      "waterIntake": "Once every 2 weeks or when soil is dry",
+      "sunlightRequired": "Low to medium indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Water-soluble fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:44:21.905Z",
+      "updatedAt": "2025-03-18T07:44:21.905Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924552efc0c2e660da095",
+      "name": "Concrete Minimalist Planter",
+      "category": [
+        "67d48a9e2e309466cf0a0f52"
+      ],
+      "subCategory": "Concrete Planter",
+      "price": 499,
+      "details": "Raw finish concrete planter with a minimal design for modern decor. Suitable for cacti and succulents, includes drainage hole.",
+      "tags": [
+        "concrete",
+        "minimalist",
+        "modern"
+      ],
+      "images": [
+        "./images/products/planter-9.webp",
+        "./images/products/planter-10.webp",
+        "./images/products/planter-11.webp",
+        "./images/products/planter-12.webp"
+      ],
+      "rating": 4.6,
+      "reviews": [
+        "Love the industrial look, very chic!",
+        "Perfect size for my desk cactus. Sturdy build."
+      ],
+      "stock": 50,
+      "productType": "Planter",
+      "size": "12cm",
+      "color": "Grey",
+      "createdAt": "2025-03-18T07:44:21.906Z",
+      "updatedAt": "2025-03-18T07:44:21.906Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924552efc0c2e660da096",
+      "name": "Hanging Metal Planter (Gold)",
+      "category": [
+        "67d48a9e2e309466cf0a0f52"
+      ],
+      "subCategory": "Hanging Planter",
+      "price": 699,
+      "details": "Elegant golden metal hanging planter for small indoor plants. Adds a modern touch to your balcony or living space.",
+      "tags": [
+        "hanging",
+        "metal",
+        "gold",
+        "decorative"
+      ],
+      "images": [
+        "./images/products/planter-13.webp",
+        "./images/products/planter-14.webp",
+        "./images/products/planter-15.webp",
+        "./images/products/planter-16.webp"
+      ],
+      "rating": 4.8,
+      "reviews": [
+        "Looks stunning hanging by my window!",
+        "Very sturdy and shiny, holds small pots easily."
+      ],
+      "stock": 20,
+      "productType": "Planter",
+      "size": "15cm",
+      "color": "Gold",
+      "createdAt": "2025-03-18T07:44:21.906Z",
+      "updatedAt": "2025-03-18T07:44:21.906Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924552efc0c2e660da097",
+      "name": "Plastic Self-Watering Pot (White)",
+      "category": [
+        "67d48a9e2e309466cf0a0f52"
+      ],
+      "subCategory": "Plastic Planter",
+      "price": 299,
+      "details": "Smart self-watering plastic pot with detachable base. Great for indoor plants with low maintenance needs.",
+      "tags": [
+        "self-watering",
+        "plastic",
+        "indoor"
+      ],
+      "images": [
+        "./images/products/planter-17.webp",
+        "./images/products/planter-18.webp",
+        "./images/products/planter-19.webp",
+        "./images/products/planter-20.webp"
+      ],
+      "rating": 4.4,
+      "reviews": [
+        "Perfect for my busy schedule, plants stay hydrated!",
+        "Looks neat and simple, very functional."
+      ],
+      "stock": 60,
+      "productType": "Planter",
+      "size": "16cm",
+      "color": "White",
+      "createdAt": "2025-03-18T07:44:21.906Z",
+      "updatedAt": "2025-03-18T07:44:21.906Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924552efc0c2e660da098",
+      "name": "Hand-painted Ceramic Pot (Floral Design)",
+      "category": [
+        "67d48a9e2e309466cf0a0f52"
+      ],
+      "subCategory": "Ceramic Planter",
+      "price": 649,
+      "details": "Charming hand-painted ceramic pot with colorful floral patterns. Perfect to brighten up your garden or balcony.",
+      "tags": [
+        "hand-painted",
+        "ceramic",
+        "decorative"
+      ],
+      "images": [
+        "./images/products/planter-21.webp",
+        "./images/products/planter-22.webp",
+        "./images/products/planter-23.webp",
+        "./images/products/planter-24.webp"
+      ],
+      "rating": 4.9,
+      "reviews": [
+        "Such a beautiful design, makes my plants look special!",
+        "Gorgeous and well-made, great for gifting."
+      ],
+      "stock": 25,
+      "productType": "Planter",
+      "size": "20cm",
+      "color": "Multicolor",
+      "createdAt": "2025-03-18T07:44:21.906Z",
+      "updatedAt": "2025-03-18T07:44:21.906Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924552efc0c2e660da099",
+      "name": "Rectangular Balcony Rail Planter (Green)",
+      "category": [
+        "67d48a9e2e309466cf0a0f52"
+      ],
+      "subCategory": "Balcony Planter",
+      "price": 599,
+      "details": "Durable rectangular railing planter for balconies. Made from weather-resistant plastic and includes metal hooks.",
+      "tags": [
+        "balcony",
+        "rail",
+        "plastic"
+      ],
+      "images": [
+        "./images/products/planter-25.webp",
+        "./images/products/planter-26.webp",
+        "./images/products/planter-27.webp",
+        "./images/products/planter-28.webp"
+      ],
+      "rating": 4.3,
+      "reviews": [
+        "Fits perfectly on my balcony railing, looks lovely with flowers!",
+        "Good quality plastic, hooks are strong."
+      ],
+      "stock": 35,
+      "productType": "Planter",
+      "size": "40cm x 20cm",
+      "color": "Green",
+      "createdAt": "2025-03-18T07:44:21.906Z",
+      "updatedAt": "2025-03-18T07:44:21.906Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924552efc0c2e660da094",
+      "name": "Ceramic Glazed Blue Pot",
+      "category": [
+        "67d48a9e2e309466cf0a0f52"
+      ],
+      "subCategory": "Ceramic Planter",
+      "price": 549,
+      "details": "Elegant glazed ceramic planter with rich blue finish, adding sophistication to home decor. Suitable for both indoor and balcony plants.",
+      "tags": [
+        "ceramic",
+        "glazed",
+        "indoor",
+        "decorative"
+      ],
+      "images": [
+        "./images/products/planter-5.webp",
+        "./images/products/planter-6.webp",
+        "./images/products/planter-7.webp",
+        "./images/products/planter-8.webp"
+      ],
+      "rating": 4.7,
+      "reviews": [
+        "Absolutely stunning color, adds charm to my living room!",
+        "Perfect size for tabletop plants, love the glossy finish."
+      ],
+      "stock": 30,
+      "productType": "Planter",
+      "size": "18cm",
+      "color": "Blue",
+      "createdAt": "2025-03-18T07:44:21.906Z",
+      "updatedAt": "2025-03-18T07:44:21.906Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924552efc0c2e660da093",
+      "name": "Terracotta Cylinder Planter",
+      "category": [
+        "67d48a9e2e309466cf0a0f52"
+      ],
+      "subCategory": "Terracotta Planter",
+      "price": 399,
+      "details": "Classic hand-crafted terracotta planter with a smooth matte finish, perfect for succulents and small plants. Ideal for natural aesthetics and breathability.",
+      "tags": [
+        "terracotta",
+        "cylinder",
+        "indoor",
+        "breathable"
+      ],
+      "images": [
+        "./images/products/planter-1.webp",
+        "./images/products/planter-2.webp",
+        "./images/products/planter-3.webp",
+        "./images/products/planter-4.webp"
+      ],
+      "rating": 4.5,
+      "reviews": [
+        "Beautiful rustic look, fits perfectly on my window sill!",
+        "Very sturdy and great for my succulents, allows good drainage."
+      ],
+      "stock": 40,
+      "productType": "Planter",
+      "size": "15cm",
+      "color": "Natural Terracotta",
+      "createdAt": "2025-03-18T07:44:21.905Z",
+      "updatedAt": "2025-03-18T07:44:21.905Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924582efc0c2e660da0ad",
+      "name": "Snake Plant (Sansevieria trifasciata)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47",
+        "67d48a9e2e309466cf0a0f4e"
+      ],
+      "subCategory": "Air Purifying",
+      "price": 499,
+      "details": "Known for its upright leaves, Snake Plant is an excellent air-purifier that tolerates low light and infrequent watering, perfect for busy people.",
+      "tags": [
+        "Indoor",
+        "Air Purifier",
+        "Low Maintenance"
+      ],
+      "images": [
+        "./images/products/snake-plant-1.jpg",
+        "./images/products/snake-plant-2.jpg",
+        "./images/products/snake-plant-3.jpg",
+        "./images/products/snake-plant-4.webp"
+      ],
+      "rating": 4.8,
+      "reviews": [],
+      "stock": 30,
+      "productType": "Plant",
+      "size": "45-60cm",
+      "waterIntake": "Every 10-14 days",
+      "sunlightRequired": "Indirect to low light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Water-soluble fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:44:24.893Z",
+      "updatedAt": "2025-03-18T07:44:24.893Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924592efc0c2e660da0af",
+      "name": "Peace Lily (Spathiphyllum)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47",
+        "67d48a9e2e309466cf0a0f4c"
+      ],
+      "subCategory": "Flowering",
+      "price": 799,
+      "details": "Elegant white flowers and glossy leaves make Peace Lily a beautiful air-purifier. Great for shaded indoor spaces.",
+      "tags": [
+        "Indoor",
+        "Flowering",
+        "Air Purifier"
+      ],
+      "images": [
+        "./images/products/peace-lily-1.jpg",
+        "./images/products/peace-lily-2.jpg",
+        "./images/products/peace-lily-3.jpg",
+        "./images/products/peace-lily-4.jpg"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "stock": 20,
+      "productType": "Plant",
+      "size": "30-45cm",
+      "waterIntake": "Weekly when topsoil dries",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Liquid fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:44:25.125Z",
+      "updatedAt": "2025-03-18T07:44:25.125Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924592efc0c2e660da0b1",
+      "name": "Areca Palm (Dypsis lutescens)",
+      "category": [
+        "67d48a9e2e309466cf0a0f4a"
+      ],
+      "subCategory": "Outdoor",
+      "price": 999,
+      "details": "Tall feathery foliage, ideal for patios and living rooms. A natural humidifier and air-purifier.",
+      "tags": [
+        "Outdoor",
+        "Palm",
+        "Air Purifier"
+      ],
+      "images": [
+        "./images/products/areca-palm-1.webp",
+        "./images/products/areca-palm-2.webp",
+        "./images/products/areca-palm-3.webp",
+        "./images/products/areca-palm-4.webp"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "stock": 15,
+      "productType": "Plant",
+      "size": "55-70cm",
+      "waterIntake": "Twice a week",
+      "sunlightRequired": "Filtered bright sunlight",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Water-soluble fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:44:25.160Z",
+      "updatedAt": "2025-03-18T07:44:25.160Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924552efc0c2e660da09a",
+      "name": "Macrame Hanging Planter (Cotton)",
+      "category": [
+        "67d48a9e2e309466cf0a0f52"
+      ],
+      "subCategory": "Hanging Planter",
+      "price": 499,
+      "details": "Stylish macrame hanging planter made from 100% cotton. Perfect for adding a boho vibe to any indoor space.",
+      "tags": [
+        "macrame",
+        "hanging",
+        "boho"
+      ],
+      "images": [
+        "./images/products/planter-29.webp",
+        "./images/products/planter-30.webp",
+        "./images/products/planter-31.webp",
+        "./images/products/planter-32.webp"
+      ],
+      "rating": 4.8,
+      "reviews": [
+        "Such a pretty addition to my room. Love the boho look!",
+        "Strong and well-made, holds my pot securely."
+      ],
+      "stock": 45,
+      "productType": "Planter",
+      "size": "Adjustable (fits pots 10-20cm)",
+      "color": "Natural Cotton",
+      "createdAt": "2025-03-18T07:44:21.906Z",
+      "updatedAt": "2025-03-18T07:44:21.906Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924592efc0c2e660da0b3",
+      "name": "Boston Fern (Nephrolepis exaltata)",
+      "category": [
+        "67d48a9e2e309466cf0a0f4e"
+      ],
+      "subCategory": "Air Purifying",
+      "price": 599,
+      "details": "Boston Fern adds lush greenery and is great for humid indoor spaces like bathrooms.",
+      "tags": [
+        "Indoor",
+        "Air Purifier"
+      ],
+      "images": [
+        "./images/products/boston-fern-1.jpg",
+        "./images/products/boston-fern-2.jpg",
+        "./images/products/boston-fern-3.jpg",
+        "./images/products/boston-fern-4.webp"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "stock": 18,
+      "productType": "Plant",
+      "size": "30-45cm",
+      "waterIntake": "2-3 times a week",
+      "sunlightRequired": "Indirect light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Liquid fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:44:25.195Z",
+      "updatedAt": "2025-03-18T07:44:25.195Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924592efc0c2e660da0b5",
+      "name": "Fiddle Leaf Fig (Ficus lyrata)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Statement Plants",
+      "price": 1499,
+      "details": "Known for its big violin-shaped leaves, this plant adds bold green touch to interiors.",
+      "tags": [
+        "Indoor",
+        "Statement"
+      ],
+      "images": [
+        "./images/products/fiddle-leaf-fig-1.jpg",
+        "./images/products/fiddle-leaf-fig-2.jpg",
+        "./images/products/fiddle-leaf-fig-3.jpg",
+        "./images/products/fiddle-leaf-fig-4.webp"
+      ],
+      "rating": 4.3,
+      "reviews": [],
+      "stock": 10,
+      "productType": "Plant",
+      "size": "45-60cm",
+      "waterIntake": "Weekly",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Water-soluble fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:44:25.230Z",
+      "updatedAt": "2025-03-18T07:44:25.230Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924592efc0c2e660da0b7",
+      "name": "Rubber Plant (Ficus elastica)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Indoor Decor",
+      "price": 799,
+      "details": "The rubber plant is popular for its shiny, broad leaves that purify air and brighten up spaces.",
+      "tags": [
+        "Indoor",
+        "Decor",
+        "Air Purifier"
+      ],
+      "images": [
+        "./images/products/rubber-plant-1.jpg",
+        "./images/products/rubber-plant-2.jpg",
+        "./images/products/rubber-plant-3.jpg",
+        "./images/products/rubber-plant-4.webp"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "stock": 16,
+      "productType": "Plant",
+      "size": "55-70cm",
+      "waterIntake": "Once a week",
+      "sunlightRequired": "Medium to bright indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Any fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:44:25.266Z",
+      "updatedAt": "2025-03-18T07:44:25.266Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924592efc0c2e660da0b9",
+      "name": "Jade Plant (Crassula ovata)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Succulent",
+      "price": 399,
+      "details": "A symbol of good luck, Jade Plant is a compact succulent perfect for tabletops.",
+      "tags": [
+        "Indoor",
+        "Succulent",
+        "Low Maintenance"
+      ],
+      "images": [
+        "./images/products/jade-plant-1.jpg",
+        "./images/products/jade-plant-2.jpg",
+        "./images/products/jade-plant-3.jpg",
+        "./images/products/jade-plant-4.webp"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "stock": 22,
+      "productType": "Plant",
+      "size": "20-30cm",
+      "waterIntake": "Every 2-3 weeks",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Cactus fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:44:25.302Z",
+      "updatedAt": "2025-03-18T07:44:25.302Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924592efc0c2e660da0bb",
+      "name": "Pothos (Epipremnum aureum)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Trailing Plants",
+      "price": 349,
+      "details": "Pothos is a popular trailing plant that grows quickly and tolerates a wide range of conditions.",
+      "tags": [
+        "Indoor",
+        "Trailing",
+        "Air Purifier"
+      ],
+      "images": [
+        "./images/products/pothos-1.jpg",
+        "./images/products/pothos-2.jpg",
+        "./images/products/pothos-3.jpg",
+        "./images/products/pothos-4.webp"
+      ],
+      "rating": 4.9,
+      "reviews": [],
+      "stock": 40,
+      "productType": "Plant",
+      "size": "45-60cm",
+      "waterIntake": "Once a week",
+      "sunlightRequired": "Low to bright indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Liquid fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:44:25.340Z",
+      "updatedAt": "2025-03-18T07:44:25.340Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924592efc0c2e660da0bd",
+      "name": "Spider Plant (Chlorophytum comosum)",
+      "category": [
+        "67d48a9e2e309466cf0a0f4e"
+      ],
+      "subCategory": "Air Purifying",
+      "price": 349,
+      "details": "Spider Plants are excellent air-purifiers and easy to propagate with their baby offshoots.",
+      "tags": [
+        "Indoor",
+        "Air Purifier"
+      ],
+      "images": [
+        "./images/products/spider-plant-1.jpg",
+        "./images/products/spider-plant-2.jpg",
+        "./images/products/spider-plant-3.jpg",
+        "./images/products/spider-plant-4.webp"
+      ],
+      "rating": 4.8,
+      "reviews": [],
+      "stock": 26,
+      "productType": "Plant",
+      "size": "30-45cm",
+      "waterIntake": "Weekly",
+      "sunlightRequired": "Indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Water-soluble fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:44:25.377Z",
+      "updatedAt": "2025-03-18T07:44:25.377Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924592efc0c2e660da0bf",
+      "name": "Aloe Vera",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Succulent",
+      "price": 399,
+      "details": "Aloe Vera is a healing succulent known for its medicinal properties and low maintenance needs.",
+      "tags": [
+        "Indoor",
+        "Succulent",
+        "Medicinal"
+      ],
+      "images": [
+        "./images/products/aloe-vera-1.jpg",
+        "./images/products/aloe-vera-2.jpg",
+        "./images/products/aloe-vera-3.jpg",
+        "./images/products/aloe-vera-4.webp"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "stock": 28,
+      "productType": "Plant",
+      "size": "20-30cm",
+      "waterIntake": "Every 2-3 weeks",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Cactus fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:44:25.413Z",
+      "updatedAt": "2025-03-18T07:44:25.413Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924592efc0c2e660da0c1",
+      "name": "Money Plant (Pilea peperomioides)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Indoor Decor",
+      "price": 449,
+      "details": "Round leaves and compact size make the Money Plant a popular indoor decor option.",
+      "tags": [
+        "Indoor",
+        "Low Maintenance",
+        "Decor"
+      ],
+      "images": [
+        "./images/products/money-plant-1.jpg",
+        "./images/products/pothos-5.jpg",
+        "./images/products/pothos-6.jpg",
+        "./images/products/pothos-4.webp"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "stock": 30,
+      "productType": "Plant",
+      "size": "20-30cm",
+      "waterIntake": "Once a week",
+      "sunlightRequired": "Indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Liquid fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:44:25.449Z",
+      "updatedAt": "2025-03-18T07:44:25.449Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924592efc0c2e660da0c3",
+      "name": "Calathea (Prayer Plant)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Indoor Decor",
+      "price": 699,
+      "details": "Beautiful foliage with unique leaf patterns that fold at night, adding a dynamic look to interiors.",
+      "tags": [
+        "Indoor",
+        "Decor",
+        "Patterned Leaves"
+      ],
+      "images": [
+        "./images/products/calathea-1.jpg",
+        "./images/products/calathea-2.jpg",
+        "./images/products/calathea-3.jpg",
+        "./images/products/calathea-4.webp"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "stock": 18,
+      "productType": "Plant",
+      "size": "30-45cm",
+      "waterIntake": "Twice a week",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Liquid fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:44:25.486Z",
+      "updatedAt": "2025-03-18T07:44:25.486Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924592efc0c2e660da0c5",
+      "name": "Croton (Codiaeum variegatum)",
+      "category": [
+        "67d48a9e2e309466cf0a0f4a"
+      ],
+      "subCategory": "Outdoor",
+      "price": 499,
+      "details": "Vivid multicolored leaves make Crotons a stunning addition to gardens and patios.",
+      "tags": [
+        "Outdoor",
+        "Colorful Foliage"
+      ],
+      "images": [
+        "./images/products/croton-1.jpg",
+        "./images/products/croton-2.jpg",
+        "./images/products/croton-3.jpg",
+        "./images/products/croton-4.webp"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "stock": 14,
+      "productType": "Plant",
+      "size": "45-60cm",
+      "waterIntake": "Twice a week",
+      "sunlightRequired": "Bright sunlight",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Slow-release fertilizer every 4 months",
+      "createdAt": "2025-03-18T07:44:25.523Z",
+      "updatedAt": "2025-03-18T07:44:25.523Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924592efc0c2e660da0c7",
+      "name": "Chinese Evergreen (Aglaonema)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Low Maintenance",
+      "price": 549,
+      "details": "Colorful, patterned foliage with tolerance to low light and irregular watering.",
+      "tags": [
+        "Indoor",
+        "Low Maintenance"
+      ],
+      "images": [
+        "./images/products/aglaonema-1.jpg",
+        "./images/products/aglaonema-2.jpg",
+        "./images/products/aglaonema-3.jpg",
+        "./images/products/aglaonema-4.webp"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "stock": 20,
+      "productType": "Plant",
+      "size": "30-45cm",
+      "waterIntake": "Once every 10 days",
+      "sunlightRequired": "Low to medium light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Liquid fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:44:25.560Z",
+      "updatedAt": "2025-03-18T07:44:25.560Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924592efc0c2e660da0c9",
+      "name": "Lucky Bamboo (Dracaena sanderiana)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Indoor Decor",
+      "price": 299,
+      "details": "Symbol of luck and prosperity, perfect for desks and tabletops.",
+      "tags": [
+        "Indoor",
+        "Decor",
+        "Lucky Plant"
+      ],
+      "images": [
+        "./images/products/bamboo-1.jpg",
+        "./images/products/bamboo-2.jpg",
+        "./images/products/bamboo-3.jpg",
+        "./images/products/bamboo-4.webp"
+      ],
+      "rating": 4.8,
+      "reviews": [],
+      "stock": 40,
+      "productType": "Plant",
+      "size": "20-30cm",
+      "waterIntake": "Change water every 10-12 days",
+      "sunlightRequired": "Indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Liquid fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:44:25.598Z",
+      "updatedAt": "2025-03-18T07:44:25.598Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924592efc0c2e660da0cb",
+      "name": "Philodendron Heartleaf",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Trailing Plants",
+      "price": 499,
+      "details": "Heart-shaped leaves and trailing growth make it a great option for shelves.",
+      "tags": [
+        "Indoor",
+        "Trailing",
+        "Low Maintenance"
+      ],
+      "images": [
+        "./images/products/philodendron-1.jpg",
+        "./images/products/philodendron-2.jpg",
+        "./images/products/philodendron-3.jpg",
+        "./images/products/philodendron-4.webp"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "stock": 25,
+      "productType": "Plant",
+      "size": "45-60cm",
+      "waterIntake": "Weekly",
+      "sunlightRequired": "Indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Liquid fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:44:25.636Z",
+      "updatedAt": "2025-03-18T07:44:25.636Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924592efc0c2e660da0cd",
+      "name": "Anthurium (Flamingo Flower)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47",
+        "67d48a9e2e309466cf0a0f4c"
+      ],
+      "subCategory": "Flowering",
+      "price": 899,
+      "details": "Glossy flowers and heart-shaped leaves make Anthurium a perfect statement plant.",
+      "tags": [
+        "Indoor",
+        "Flowering",
+        "Decor"
+      ],
+      "images": [
+        "./images/products/anthurium-1.jpg",
+        "./images/products/anthurium-2.jpg",
+        "./images/products/anthurium-3.jpg",
+        "./images/products/anthurium-4.webp"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "stock": 15,
+      "productType": "Plant",
+      "size": "45-60cm",
+      "waterIntake": "Weekly",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Flowering fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:44:25.674Z",
+      "updatedAt": "2025-03-18T07:44:25.674Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924592efc0c2e660da0cf",
+      "name": "Kalanchoe (Kalanchoe blossfeldiana)",
+      "category": [
+        "67d48a9e2e309466cf0a0f4c"
+      ],
+      "subCategory": "Flowering",
+      "price": 499,
+      "details": "Compact succulent with bright colorful flowers, great for sunny windowsills.",
+      "tags": [
+        "Indoor",
+        "Flowering",
+        "Succulent"
+      ],
+      "images": [
+        "./images/products/kalanchoe-1.jpg",
+        "./images/products/kalanchoe-2.jpg",
+        "./images/products/kalanchoe-3.jpg",
+        "./images/products/kalanchoe-4.webp"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "stock": 20,
+      "productType": "Plant",
+      "size": "20-30cm",
+      "waterIntake": "Every 10-14 days",
+      "sunlightRequired": "Bright sunlight",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Succulent fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:44:25.710Z",
+      "updatedAt": "2025-03-18T07:44:25.710Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924592efc0c2e660da0d1",
+      "name": "Syngonium (Arrowhead Plant)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Trailing Plants",
+      "price": 399,
+      "details": "Fast-growing plant with arrow-shaped leaves that work well as tabletop or hanging plant.",
+      "tags": [
+        "Indoor",
+        "Trailing"
+      ],
+      "images": [
+        "./images/products/syngonium-1.jpg",
+        "./images/products/syngonium-2.jpg",
+        "./images/products/syngonium-3.jpg",
+        "./images/products/syngonium-4.webp"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "stock": 30,
+      "productType": "Plant",
+      "size": "30-45cm",
+      "waterIntake": "Weekly",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Liquid fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:44:25.747Z",
+      "updatedAt": "2025-03-18T07:44:25.747Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924592efc0c2e660da0d3",
+      "name": "Spider Plant (Chlorophytum comosum)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47",
+        "67d48a9e2e309466cf0a0f4e"
+      ],
+      "subCategory": "Air Purifying",
+      "price": 349,
+      "details": "Spider Plant is an excellent air-purifying plant with arching green and white leaves, known for producing baby 'pups'.",
+      "tags": [
+        "Indoor",
+        "Air Purifying",
+        "Easy Care"
+      ],
+      "images": [
+        "./images/products/spider-plant-1.jpg",
+        "./images/products/spider-plant-2.jpg",
+        "./images/products/spider-plant-3.jpg",
+        "./images/products/spider-plant-4.webp"
+      ],
+      "rating": 4.8,
+      "reviews": [],
+      "stock": 35,
+      "productType": "Plant",
+      "size": "30-45cm",
+      "waterIntake": "Once a week",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Water-soluble fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:44:25.783Z",
+      "updatedAt": "2025-03-18T07:44:25.783Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924592efc0c2e660da0d5",
+      "name": "Arrowhead Vine (Syngonium podophyllum)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Indoor Decor",
+      "price": 399,
+      "details": "Elegant arrow-shaped leaves in shades of green and pink, great as a desk or shelf plant.",
+      "tags": [
+        "Indoor",
+        "Decor",
+        "Trailing"
+      ],
+      "images": [
+        "./images/products/arrowhead-vine-1.jpg",
+        "./images/products/arrowhead-vine-2.jpg",
+        "./images/products/arrowhead-vine-3.jpg",
+        "./images/products/arrowhead-vine-4.webp"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "stock": 22,
+      "productType": "Plant",
+      "size": "20-30cm",
+      "waterIntake": "Weekly",
+      "sunlightRequired": "Low to medium light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Liquid fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:44:25.821Z",
+      "updatedAt": "2025-03-18T07:44:25.821Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924592efc0c2e660da0d7",
+      "name": "Rex Begonia",
+      "category": [
+        "67d48a9e2e309466cf0a0f4c"
+      ],
+      "subCategory": "Flowering",
+      "price": 549,
+      "details": "Known for its striking, colorful, patterned leaves, Rex Begonia adds vibrancy to any space.",
+      "tags": [
+        "Indoor",
+        "Colorful Foliage"
+      ],
+      "images": [
+        "./images/products/rex-begonia-1.jpg",
+        "./images/products/rex-begonia-2.jpg",
+        "./images/products/rex-begonia-3.jpg",
+        "./images/products/rex-begonia-4.webp"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "stock": 16,
+      "productType": "Plant",
+      "size": "20-30cm",
+      "waterIntake": "Twice a week",
+      "sunlightRequired": "Filtered indirect light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Leafy plant fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:44:25.858Z",
+      "updatedAt": "2025-03-18T07:44:25.858Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924592efc0c2e660da0d9",
+      "name": "Peperomia Green",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Low Maintenance",
+      "price": 449,
+      "details": "Compact and easy to care for, Peperomia is perfect for desks and small spaces.",
+      "tags": [
+        "Indoor",
+        "Low Maintenance"
+      ],
+      "images": [
+        "./images/products/peperomia-green-1.jpg",
+        "./images/products/peperomia-green-2.jpg",
+        "./images/products/peperomia-green-3.jpg",
+        "./images/products/peperomia-green-4.webp"
+      ],
+      "rating": 4.7,
+      "reviews": [],
+      "stock": 24,
+      "productType": "Plant",
+      "size": "20-30cm",
+      "waterIntake": "Every 10 days",
+      "sunlightRequired": "Indirect light",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Any fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:44:25.894Z",
+      "updatedAt": "2025-03-18T07:44:25.894Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924592efc0c2e660da0db",
+      "name": "Coleus (Painted Nettle)",
+      "category": [
+        "67d48a9e2e309466cf0a0f4a"
+      ],
+      "subCategory": "Outdoor",
+      "price": 399,
+      "details": "Vibrantly colored foliage in a variety of patterns makes Coleus a favorite outdoor plant.",
+      "tags": [
+        "Outdoor",
+        "Colorful Foliage"
+      ],
+      "images": [
+        "./images/products/coleus-1.jpg",
+        "./images/products/coleus-2.jpg",
+        "./images/products/coleus-3.jpg",
+        "./images/products/coleus-4.webp"
+      ],
+      "rating": 4.4,
+      "reviews": [],
+      "stock": 19,
+      "productType": "Plant",
+      "size": "45-60cm",
+      "waterIntake": "Twice a week",
+      "sunlightRequired": "Partial shade",
+      "careDifficulty": "Beginner-friendly",
+      "fertilizer": "Any fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:44:25.930Z",
+      "updatedAt": "2025-03-18T07:44:25.930Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d924592efc0c2e660da0dd",
+      "name": "Bird’s Nest Fern (Asplenium nidus)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Indoor Decor",
+      "price": 599,
+      "details": "Elegant fern with wavy fronds, perfect for humid indoor environments like bathrooms.",
+      "tags": [
+        "Indoor",
+        "Fern",
+        "Humidity Loving"
+      ],
+      "images": [
+        "./images/products/bird-nest-fern-1.jpg",
+        "./images/products/bird-nest-fern-2.jpg",
+        "./images/products/bird-nest-fern-3.jpg",
+        "./images/products/bird-nest-fern-4.webp"
+      ],
+      "rating": 4.6,
+      "reviews": [],
+      "stock": 15,
+      "productType": "Plant",
+      "size": "55-70cm",
+      "waterIntake": "Twice a week",
+      "sunlightRequired": "Low to medium light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Fern fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:44:25.968Z",
+      "updatedAt": "2025-03-18T07:44:25.968Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d9245a2efc0c2e660da0df",
+      "name": "Cordyline (Ti Plant)",
+      "category": [
+        "67d48a9e2e309466cf0a0f4a"
+      ],
+      "subCategory": "Outdoor",
+      "price": 699,
+      "details": "Tall ornamental plant with red and purple foliage, great for gardens and balconies.",
+      "tags": [
+        "Outdoor",
+        "Colorful Foliage"
+      ],
+      "images": [
+        "./images/products/cordyline-1.jpg",
+        "./images/products/cordyline-2.jpg",
+        "./images/products/cordyline-3.jpg",
+        "./images/products/cordyline-4.webp"
+      ],
+      "rating": 4.3,
+      "reviews": [],
+      "stock": 12,
+      "productType": "Plant",
+      "size": "55-70cm",
+      "waterIntake": "Twice a week",
+      "sunlightRequired": "Bright indirect to direct light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Slow-release fertilizer every 4 months",
+      "createdAt": "2025-03-18T07:44:26.005Z",
+      "updatedAt": "2025-03-18T07:44:26.005Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d9245a2efc0c2e660da0e1",
+      "name": "Areca Palm (Dypsis lutescens)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47",
+        "67d48a9e2e309466cf0a0f4e"
+      ],
+      "subCategory": "Air Purifying",
+      "price": 899,
+      "details": "Elegant indoor palm that improves air quality and adds tropical vibes to interiors.",
+      "tags": [
+        "Indoor",
+        "Air Purifying",
+        "Palm"
+      ],
+      "images": [
+        "./images/products/areca-palm-1.jpg",
+        "./images/products/areca-palm-2.jpg",
+        "./images/products/areca-palm-3.jpg",
+        "./images/products/areca-palm-4.webp"
+      ],
+      "rating": 4.8,
+      "reviews": [],
+      "stock": 18,
+      "productType": "Plant",
+      "size": "55-70cm",
+      "waterIntake": "Twice a week",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Any fertilizer every 3 months",
+      "createdAt": "2025-03-18T07:44:26.042Z",
+      "updatedAt": "2025-03-18T07:44:26.042Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d9245a2efc0c2e660da0e3",
+      "name": "Zebra Plant (Aphelandra squarrosa)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47"
+      ],
+      "subCategory": "Flowering",
+      "price": 549,
+      "details": "Unique striped leaves with bright yellow flower bracts, perfect for display areas.",
+      "tags": [
+        "Indoor",
+        "Flowering",
+        "Patterned Leaves"
+      ],
+      "images": [
+        "./images/products/zebra-plant-1.jpg",
+        "./images/products/zebra-plant-2.jpg",
+        "./images/products/zebra-plant-3.jpg",
+        "./images/products/zebra-plant-4.webp"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "stock": 10,
+      "productType": "Plant",
+      "size": "45-60cm",
+      "waterIntake": "Weekly",
+      "sunlightRequired": "Filtered indirect light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Flowering fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:44:26.077Z",
+      "updatedAt": "2025-03-18T07:44:26.077Z",
+      "__v": 0
+    },
+    {
+      "_id": "67d9245a2efc0c2e660da0e5",
+      "name": "Anthurium (Flamingo Flower)",
+      "category": [
+        "67d48a9d2e309466cf0a0f47",
+        "67d48a9e2e309466cf0a0f4c"
+      ],
+      "subCategory": "Flowering",
+      "price": 899,
+      "details": "Glossy flowers and heart-shaped leaves make Anthurium a perfect statement plant.",
+      "tags": [
+        "Indoor",
+        "Flowering",
+        "Decor"
+      ],
+      "images": [
+        "./images/products/anthurium-1.jpg",
+        "./images/products/anthurium-2.jpg",
+        "./images/products/anthurium-3.jpg",
+        "./images/products/anthurium-4.webp"
+      ],
+      "rating": 4.5,
+      "reviews": [],
+      "stock": 15,
+      "productType": "Plant",
+      "size": "45-60cm",
+      "waterIntake": "Weekly",
+      "sunlightRequired": "Bright indirect light",
+      "careDifficulty": "Intermediate",
+      "fertilizer": "Flowering fertilizer every 2 months",
+      "createdAt": "2025-03-18T07:44:26.111Z",
+      "updatedAt": "2025-03-18T07:44:26.111Z",
+      "__v": 0
+    }
+  ]
