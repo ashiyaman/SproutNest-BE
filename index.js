@@ -206,8 +206,6 @@ app.get('/products/category/:categoryId', async(req, res) => {
     }
 })
 
-
-
 app.post('/user', async(req, res) => {
     const { name, designation, phoneNo, street, city, country, zip, addressType } = req.body;
     try{
