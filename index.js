@@ -16,14 +16,14 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
-const jsonPData = fs.readFileSync('./plants.json')
+/*const jsonPData = fs.readFileSync('./plants.json')
 const plantsData = JSON.parse(jsonPData)
 
 const jsonPlData = fs.readFileSync('./plantCare.json')
 const plantsCareData = JSON.parse(jsonPlData)
 
 const jsonData = fs.readFileSync('./planters.json')
-const plantersData = JSON.parse(jsonData)
+const plantersData = JSON.parse(jsonData)*/
 
 initializeDatabase()
 
