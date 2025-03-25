@@ -218,6 +218,19 @@ app.get('/user', async(req, res) => {
     }
 })
 
+app.delete('/user/address/:addressId', async(req, res) => {
+    try{
+        const address = UserAddress.findByIdAndDelete(req.params.addressId)
+        if(!address){
+            res.status(404).json({error: 'Address not found'})
+        }
+        res.status(200).json(address)
+    }
+    catch(error){
+        res.status(500).json({error: 'Internal Server Error'})
+    }
+})
+
 app.post('/user', async(req, res) => {
     const { name, designation, phoneNo, street, city, country, zip, addressType } = req.body;
     try{
