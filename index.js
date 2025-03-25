@@ -232,7 +232,7 @@ app.delete('/user/address/:addressId', async(req, res) => {
 })
 
 app.post('/user', async(req, res) => {
-    const { name, designation, phoneNo, street, city, country, zip, addressType } = req.body;
+    const { name, designation, phoneNo, street, city, country, zip, addressType = 'Home' } = req.body;
     try{
         const address = new UserAddress({
             addressType, street, city, zip, country
