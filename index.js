@@ -219,14 +219,17 @@ app.get('/user', async(req, res) => {
 })
 
 app.delete('/user/address/:addressId', async(req, res) => {
+    console.log(req.params.addressId)
     try{
-        const address = UserAddress.findByIdAndDelete(req.params.addressId)
+        const address = await UserAddress.findByIdAndDelete(req.params.addressId)
         if(!address){
             res.status(404).json({error: 'Address not found'})
         }
-        res.status(200).json(address)
+        
+        res.status(200).json({address: address})
     }
     catch(error){
+        console.log(error)
         res.status(500).json({error: 'Internal Server Error'})
     }
 })
@@ -238,6 +241,8 @@ app.post('/user', async(req, res) => {
             addressType, street, city, zip, country
         })
         const userAddress = await address.save()
+
+        console.log(userAddress)
 
         const user = new User({
             name ,
