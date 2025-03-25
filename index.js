@@ -180,10 +180,9 @@ app.get('/categories/:categoryId', async(req, res) => {
 
 app.get('/products/:productId', async(req, res) => {
     try{
-        console.log('id....', req.params.productId)
         const product = await PlantProduct.findById(req.params.productId)
         if(!product){
-            res.status(404).json({error: 'Product not found. Please add One.'})
+            res.status(404).json({error: 'Product not found.'})
         }
         res.status(200).json(product)
     }
@@ -194,12 +193,25 @@ app.get('/products/:productId', async(req, res) => {
 
 app.get('/products/category/:categoryId', async(req, res) => {
     try{
-        console.log('id....', req.params.categoryId)
         const products = await PlantProduct.find({category: req.params.categoryId})
         if(!products){
             res.status(404).json({error: 'Products not found.'})
         }
         res.status(200).json(products)
+    }
+    catch(error){
+        res.status(500).json({error: 'Internal Server Error'})
+    }
+})
+
+app.get('/user', async(req, res) => {
+    try{
+        const user = await User.find()
+        console.log(user)
+        if(!user){
+            res.status(404).json({error: 'User not found'})
+        }
+        res.status(200).json(user)
     }
     catch(error){
         res.status(500).json({error: 'Internal Server Error'})
@@ -224,7 +236,7 @@ app.post('/user', async(req, res) => {
         res.status(201).json({ message: "User created successfully", user: user });
     }
     catch(error){
-        console.log(error)
+        res.status(500).json({error: 'Internal Server Error'})
     }
 })
 
