@@ -240,6 +240,19 @@ app.post('/user', async(req, res) => {
     }
 })
 
+app.get('/user/address/:addressId', async(req, res) => {
+    try{
+        const address = await UserAddress.findById(req.params.addressId)
+        if(!address){
+            res.status(404).json({error: 'User not Found.'})
+        }
+        res.status(201).json(address)
+    }
+    catch(error){
+        res.status(500).json({error: 'Internal Server Error'})
+    }
+})
+
 const PORT = process.env.PORT
 app.listen(PORT, (() => console.log('Server  is running on port', PORT)))
 
