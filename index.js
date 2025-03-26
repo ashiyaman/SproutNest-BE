@@ -207,7 +207,6 @@ app.get('/products/category/:categoryId', async(req, res) => {
 app.get('/user', async(req, res) => {
     try{
         const user = await User.find().populate('addresses')
-        console.log(user)
         if(!user){
             res.status(404).json({error: 'User not found'})
         }
@@ -220,30 +219,33 @@ app.get('/user', async(req, res) => {
 
 app.delete('/user/address/:addressId', async(req, res) => {
     const {userId} = req.body
-    console.log('...user id...', userId)
-    try{
-        const address = await UserAddress.findByIdAndDelete(req.params.addressId)
-        if(!address){
-            res.status(404).json({error: 'Address not found'})
+    
+        if (!userId) {
+            return res.status(400).json({ error: 'User ID is required' });
         }
-        
-        res.status(200).json({address: address})
-    }
-    catch(error){
-        console.log(error)
-        res.status(500).json({error: 'Internal Server Error'})
-    }
+        try{
+            const address = await UserAddress.findByIdAndDelete(req.params.addressId)
+            if(!address){
+                res.status(404).json({error: 'Address not found'})
+            }
+            const user = await User.updateOne(
+                {_id: userId},
+                {$pull: {addresses: address._id}}
+            )
+            res.status(200).json(address)
+        }
+        catch(error){
+            res.status(500).json({error: 'Internal Server Error'})
+        }
 })
 
 app.post('/user', async(req, res) => {
-    console.log('...post...', req.body)
     const { name, designation, phoneNo, street, city, country, zip, addressType = 'Home' } = req.body;
     try{
         const address = new UserAddress({
             addressType, street, city, zip, country, phoneNo
         })
         const userAddress = await address.save()
-        console.log('...user addr...', userAddress)
         const user = new User({
             name ,
             addresses: userAddress._id,
@@ -253,7 +255,6 @@ app.post('/user', async(req, res) => {
         res.status(201).json(user);
     }
     catch(error){
-        console.log(error)
         res.status(500).json({error: 'Internal Server Error'})
     }
 })
@@ -266,10 +267,8 @@ app.put('/user/address', async(req, res) => {
         })
         const userAddress = await address.save()
 
-        console.log('....be addr...', userAddress)
-
         const user = await User.findByIdAndUpdate(userId, {$push:  {addresses: userAddress._id}})
-        console.log(user)
+
         res.status(201).json({ message: "User created successfully", user: user });
     }
     catch(error){
