@@ -219,7 +219,8 @@ app.get('/user', async(req, res) => {
 })
 
 app.delete('/user/address/:addressId', async(req, res) => {
-    console.log(req.params.addressId)
+    const {userId} = req.body
+    console.log('...user id...', userId)
     try{
         const address = await UserAddress.findByIdAndDelete(req.params.addressId)
         if(!address){
@@ -235,28 +236,47 @@ app.delete('/user/address/:addressId', async(req, res) => {
 })
 
 app.post('/user', async(req, res) => {
+    console.log('...post...', req.body)
     const { name, designation, phoneNo, street, city, country, zip, addressType = 'Home' } = req.body;
     try{
         const address = new UserAddress({
-            addressType, street, city, zip, country
+            addressType, street, city, zip, country, phoneNo
         })
         const userAddress = await address.save()
-
-        console.log(userAddress)
-
+        console.log('...user addr...', userAddress)
         const user = new User({
             name ,
             addresses: userAddress._id,
-            designation,
-            phoneNo
+            designation
         })
         await user.save()
+        res.status(201).json(user);
+    }
+    catch(error){
+        console.log(error)
+        res.status(500).json({error: 'Internal Server Error'})
+    }
+})
+
+app.put('/user/address', async(req, res) => {
+    const { userId, phoneNo, street, city, country, zip, addressType = 'Home' } = req.body;
+    try{
+        const address = new UserAddress({
+            addressType, street, city, zip, country, phoneNo
+        })
+        const userAddress = await address.save()
+
+        console.log('....be addr...', userAddress)
+
+        const user = await User.findByIdAndUpdate(userId, {$push:  {addresses: userAddress._id}})
+        console.log(user)
         res.status(201).json({ message: "User created successfully", user: user });
     }
     catch(error){
         res.status(500).json({error: 'Internal Server Error'})
     }
 })
+
 
 const PORT = process.env.PORT
 app.listen(PORT, (() => console.log('Server  is running on port', PORT)))

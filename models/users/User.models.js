@@ -10,10 +10,8 @@ const userSchema = new mongoose.Schema({
     designation: String,
     addresses: [{
         type: Schema.Types.ObjectId,
-        ref: 'UserAddress',
-        required: true
-    }],
-    phoneNo: String
+        ref: 'UserAddress'
+    }]
 },
 {timestamps: true}
 )
