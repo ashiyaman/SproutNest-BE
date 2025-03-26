@@ -24,7 +24,11 @@ const userAddressSchema = new mongoose.Schema({
         required: true,
         default: 'India'
     }  ,
-    phoneNo: String  
+    phoneNo: String ,
+    isDefault: {
+        type: Boolean,
+        default: false
+    }
 },
 {timestamps: true}
 )

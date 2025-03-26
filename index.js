@@ -154,7 +154,14 @@ app.get('/categories', async(req, res) => {
 
 app.get('/products', async(req, res) => {
     try{
-        const products = await PlantProduct.find()
+        let products = []
+        if(req.query.new == 'true'){
+            products = await PlantProduct.find({tags: 'new'})
+        }       
+        else{
+            products = await PlantProduct.find()
+        }
+
         if(!products){
             res.status(404).json({error: 'Products not found. Please add One.'})
         }
@@ -240,10 +247,10 @@ app.delete('/user/address/:addressId', async(req, res) => {
 })
 
 app.post('/user', async(req, res) => {
-    const { name, designation, phoneNo, street, city, country, zip, addressType = 'Home' } = req.body;
+    const { name, designation, phoneNo, street, city, country, zip, addressType = 'Home', isDefault } = req.body;
     try{
         const address = new UserAddress({
-            addressType, street, city, zip, country, phoneNo
+            addressType, street, city, zip, country, phoneNo, isDefault
         })
         const userAddress = await address.save()
         const user = new User({
@@ -260,10 +267,10 @@ app.post('/user', async(req, res) => {
 })
 
 app.put('/user/address', async(req, res) => {
-    const { userId, phoneNo, street, city, country, zip, addressType = 'Home' } = req.body;
+    const { userId, phoneNo, street, city, country, zip, addressType = 'Home', isDefault } = req.body;
     try{
         const address = new UserAddress({
-            addressType, street, city, zip, country, phoneNo
+            addressType, street, city, zip, country, phoneNo, isDefault
         })
         const userAddress = await address.save()
 
@@ -276,7 +283,19 @@ app.put('/user/address', async(req, res) => {
     }
 })
 
+app.put('/user/address/:addressId', async(req, res) => {
+    const { addressToupdate } = req.body;
+    try{
+        const updatedUserAddress = await UserAddress.findByIdAndUpdate(req.params.addressId, addressToupdate)
+        console.log('..in audate addr...', updatedUserAddress)
+        res.status(201).json(updatedUserAddress);
+    }
+    catch(error){
+        res.status(500).json({error: 'Internal Server Error'})
+    }
+})
+
 
 const PORT = process.env.PORT
-app.listen(PORT, (() => console.log('Server  is running on port', PORT)))
+app.listen(PORT, (() => console.log('Server is running on port', PORT)))
 
