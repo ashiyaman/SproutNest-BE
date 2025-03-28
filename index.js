@@ -17,7 +17,7 @@ app.use(express.json())
 app.use(cors())
 
 /*const jsonPData = fs.readFileSync('./plants.json')
-const plantsData = JSON.parse(jsonPData)*/
+const plantsData = JSON.parse(jsonPData)
 
 const jsonPlData = fs.readFileSync('./plantCare.json')
 const plantsCareData = JSON.parse(jsonPlData)
@@ -136,7 +136,7 @@ const seedPlanterData = () => {
 
 //seedCategoryData()
 //seedPlantData()
-seedPlantCareData()
+//seedPlantCareData()
 //seedPlanterData()
 
 app.get('/categories', async(req, res) => {
