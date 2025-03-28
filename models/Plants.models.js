@@ -2,9 +2,9 @@ const mongoose = require('mongoose')
 const PlantProduct = require('./Products.models')
 
 const plantSchema = new mongoose.Schema({
-        size: {
+        sizes: {
             type: String,
-            enum: ['20-30cm', '30-45cm', '45-60cm', '55-70cm'],
+            enum: ['S', 'M', 'L', 'XL', 'XXL'],
             required: true
         },
         waterIntake:String,

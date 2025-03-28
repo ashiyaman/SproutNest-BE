@@ -2,11 +2,11 @@ const mongoose = require('mongoose')
 const PlantProduct = require('./Products.models')
 
 const plantCareSchema = new mongoose.Schema({
-        weight: [String],
+        weights: [String],
         usageInstructions: String,
         dosage: String,
-        size: String,
-        color: String
+        sizes: [String],
+        colors: [String]
     })
 
 const PlantCare = PlantProduct.discriminator('PlantCare', plantCareSchema)

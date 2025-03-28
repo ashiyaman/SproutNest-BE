@@ -2,8 +2,8 @@ const mongoose = require('mongoose')
 const PlantProduct = require('./Products.models')
 
 const planterSchema = new mongoose.Schema({
-        size: String,
-        color: String,
+        sizes: [String],
+        colors: [String],
         material: String,
         shape: String
     })

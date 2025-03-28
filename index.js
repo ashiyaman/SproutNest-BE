@@ -17,12 +17,12 @@ app.use(express.json())
 app.use(cors())
 
 /*const jsonPData = fs.readFileSync('./plants.json')
-const plantsData = JSON.parse(jsonPData)
+const plantsData = JSON.parse(jsonPData)*/
 
 const jsonPlData = fs.readFileSync('./plantCare.json')
 const plantsCareData = JSON.parse(jsonPlData)
 
-const jsonData = fs.readFileSync('./planters.json')
+/*const jsonData = fs.readFileSync('./planters.json')
 const plantersData = JSON.parse(jsonData)*/
 
 initializeDatabase()
@@ -64,7 +64,7 @@ const seedPlantData = async() => {
                 rating: plantData.rating,
                 reviews: plantData.reviews,
                 stock: plantData.stock,
-                size: plantData.size,
+                sizes: plantData.sizes,
                 waterIntake: plantData.waterIntake,
                 sunlightRequired: plantData.sunlightRequired,
                 careDifficulty: plantData.careDifficulty,
@@ -92,11 +92,11 @@ const seedPlantCareData = () => {
                 rating: plantCareData.rating,
                 reviews: plantCareData.reviews,
                 stock: plantCareData.stock,
-                size: plantCareData.size,
-                weight: plantCareData.weight,
+                sizes: plantCareData.sizes,
+                weights: plantCareData.weights,
                 usageInstructions: plantCareData.usageInstructions,
                 dosage: plantCareData.dosage,
-                color: plantCareData.color
+                colors: plantCareData.colors
             })
             plantCare.save()
         }
@@ -121,10 +121,10 @@ const seedPlanterData = () => {
                 rating: planterData.rating,
                 reviews: planterData.reviews,
                 stock: planterData.stock,
-                size: planterData.size,
+                sizes: planterData.sizes,
                 material: planterData.material,
                 shape: planterData.material,
-                color: planterData.color
+                colors: planterData.colors
             })
             planter.save()
         }
@@ -136,7 +136,7 @@ const seedPlanterData = () => {
 
 //seedCategoryData()
 //seedPlantData()
-//seedPlantCareData()
+seedPlantCareData()
 //seedPlanterData()
 
 app.get('/categories', async(req, res) => {
@@ -247,10 +247,10 @@ app.delete('/user/address/:addressId', async(req, res) => {
 })
 
 app.post('/user', async(req, res) => {
-    const { name, designation, phoneNo, street, city, country, zip, addressType = 'Home', isDefault } = req.body;
+    const { name, designation, phoneNo, street, city, country, zip, addressType = 'Home' } = req.body;
     try{
         const address = new UserAddress({
-            addressType, street, city, zip, country, phoneNo, isDefault
+            addressType, street, city, zip, country, phoneNo
         })
         const userAddress = await address.save()
         const user = new User({
@@ -267,10 +267,10 @@ app.post('/user', async(req, res) => {
 })
 
 app.put('/user/address', async(req, res) => {
-    const { userId, phoneNo, street, city, country, zip, addressType = 'Home', isDefault } = req.body;
+    const { userId, phoneNo, street, city, country, zip, addressType = 'Home' } = req.body;
     try{
         const address = new UserAddress({
-            addressType, street, city, zip, country, phoneNo, isDefault
+            addressType, street, city, zip, country, phoneNo
         })
         const userAddress = await address.save()
 
