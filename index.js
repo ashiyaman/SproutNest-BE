@@ -216,7 +216,7 @@ app.get('/user', async(req, res) => {
     try{
         const user = await SproutNestUser.findOne().populate('addresses')
         if(!user){
-            return res.status(404).json({error: 'User not found'})
+            return res.status(404).json({error: 'User not found.'})
         }
         res.status(200).json(user)
     }
@@ -225,7 +225,21 @@ app.get('/user', async(req, res) => {
     }
 })
 
-app.delete('/user/address/:addressId', async(req, res) => {
+app.get('/:userId/addresses', async(req, res) => {
+    try{
+        const user = await SproutNestUser.findOne({_id: req.params.userId})
+        const userAddresses = user.addresses
+        if(!userAddresses){
+            return res.status(404).json({error: 'User Address not found.'})
+        }
+        res.status(200).json(userAddresses)
+    }
+    catch(error){
+        res.status(500).json({error: 'Internal Server Error'})
+    }
+})
+
+app.delete('/:userId/:addressId', async(req, res) => {
     const {userId} = req.body
     
         if (!userId) {
@@ -240,7 +254,7 @@ app.delete('/user/address/:addressId', async(req, res) => {
                 {_id: userId},
                 {$pull: {addresses: address._id}}
             )
-            res.status(200).json(address)
+            res.status(200).json(user)
         }
         catch(error){
             res.status(500).json({error: 'Internal Server Error'})
@@ -270,35 +284,21 @@ app.post('/user', async(req, res) => {
 })
 
 app.post('/:userId/address', async(req, res) => {
-    console.log('.............in app post address...........')
+    
     const { street, city, country, zip, phoneNo, isShippingAddress} = req.body;
     try{
         const address = new UserAddress({
             street, city, country, zip,  phoneNo, isShippingAddress
         })
         const userAddress = await address.save()
-        console.log('userAddress.......', userAddress)
         const user = await SproutNestUser.findByIdAndUpdate(req.params.userId, {$push:  {addresses: userAddress._id}})
 
-        res.status(201).json({ message: "Address created successfully", user, userAddress });
+        res.status(201).json(userAddress);
     }
     catch(error){
         res.status(500).json({error: 'Internal Server Error'})
     }
 })
-
-app.put('/user/address/:addressId', async(req, res) => {
-    const { addressToupdate } = req.body;
-    try{
-        const updatedUserAddress = await UserAddress.findByIdAndUpdate(req.params.addressId, addressToupdate)
-        console.log('..in audate addr...', updatedUserAddress)
-        res.status(201).json(updatedUserAddress);
-    }
-    catch(error){
-        res.status(500).json({error: 'Internal Server Error'})
-    }
-})
-
 
 const PORT = process.env.PORT
 app.listen(PORT, (() => console.log('Server is running on port', PORT)))
