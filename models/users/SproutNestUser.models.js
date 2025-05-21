@@ -7,7 +7,6 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    designation: String,
     addresses: [{
         type: Schema.Types.ObjectId,
         ref: 'UserAddress'
@@ -16,6 +15,6 @@ const userSchema = new mongoose.Schema({
 {timestamps: true}
 )
 
-const User = mongoose.model('User', userSchema)
+const SproutNestUser = mongoose.model('SproutNestUser', userSchema)
 
-module.exports = User
+module.exports = SproutNestUser

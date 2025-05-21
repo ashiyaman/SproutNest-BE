@@ -9,8 +9,9 @@ const Plant = require('./models/Plants.models')
 const PlantCare = require('./models/PlantCare.models')
 const Planter = require('./models/Planters.models')
 const PlantProduct = require('./models/Products.models')
-const User = require('./models/users/User.models')
+
 const UserAddress = require('./models/users/UserAddress.models')
+const SproutNestUser = require('./models/users/SproutNestUser.models')
 const app = express()
 
 app.use(express.json())
@@ -143,7 +144,7 @@ app.get('/categories', async(req, res) => {
     try{
         const categories = await PlantCategory.find()
         if(!categories){
-            res.status(404).json({error: 'Categories not found. Please add One.'})
+            return res.status(404).json({error: 'Categories not found. Please add One.'})
         }
         res.status(200).json(categories)
     }
@@ -163,7 +164,7 @@ app.get('/products', async(req, res) => {
         }
 
         if(!products){
-            res.status(404).json({error: 'Products not found. Please add One.'})
+            return res.status(404).json({error: 'Products not found. Please add One.'})
         }
         res.status(200).json(products)
     }
@@ -176,7 +177,7 @@ app.get('/categories/:categoryId', async(req, res) => {
     try{
         const products = await PlantProduct.find({category: req.params.categoryId})
         if(!products){
-            res.status(404).json({error: 'Products not found. Please add One.'})
+            return res.status(404).json({error: 'Products not found. Please add One.'})
         }
         res.status(200).json(products)
     }
@@ -189,7 +190,7 @@ app.get('/products/:productId', async(req, res) => {
     try{
         const product = await PlantProduct.findById(req.params.productId)
         if(!product){
-            res.status(404).json({error: 'Product not found.'})
+            return res.status(404).json({error: 'Product not found.'})
         }
         res.status(200).json(product)
     }
@@ -202,7 +203,7 @@ app.get('/products/category/:categoryId', async(req, res) => {
     try{
         const products = await PlantProduct.find({category: req.params.categoryId})
         if(!products){
-            res.status(404).json({error: 'Products not found.'})
+            return res.status(404).json({error: 'Products not found.'})
         }
         res.status(200).json(products)
     }
@@ -213,9 +214,9 @@ app.get('/products/category/:categoryId', async(req, res) => {
 
 app.get('/user', async(req, res) => {
     try{
-        const user = await User.find().populate('addresses')
+        const user = await SproutNestUser.findOne().populate('addresses')
         if(!user){
-            res.status(404).json({error: 'User not found'})
+            return res.status(404).json({error: 'User not found'})
         }
         res.status(200).json(user)
     }
@@ -233,9 +234,9 @@ app.delete('/user/address/:addressId', async(req, res) => {
         try{
             const address = await UserAddress.findByIdAndDelete(req.params.addressId)
             if(!address){
-                res.status(404).json({error: 'Address not found'})
+                return res.status(404).json({error: 'Address not found'})
             }
-            const user = await User.updateOne(
+            const user = await SproutNestUser.updateOne(
                 {_id: userId},
                 {$pull: {addresses: address._id}}
             )
@@ -247,36 +248,39 @@ app.delete('/user/address/:addressId', async(req, res) => {
 })
 
 app.post('/user', async(req, res) => {
-    const { name, designation, phoneNo, street, city, country, zip, addressType = 'Home' } = req.body;
+    const { name, phoneNo, street, city, country, zip, isShippingAddress } = req.body;
     try{
         const address = new UserAddress({
-            addressType, street, city, zip, country, phoneNo
+            street, city, zip, country, isShippingAddress, phoneNo
         })
         const userAddress = await address.save()
-        const user = new User({
+        
+        const user = new SproutNestUser({
             name ,
-            addresses: userAddress._id,
-            designation
+            addresses: [userAddress._id]
         })
         await user.save()
-        res.status(201).json(user);
+        const populatedUser = await SproutNestUser.findById(user._id).populate('addresses');
+        
+        res.status(201).json(populatedUser);
     }
     catch(error){
         res.status(500).json({error: 'Internal Server Error'})
     }
 })
 
-app.put('/user/address', async(req, res) => {
-    const { userId, phoneNo, street, city, country, zip, addressType = 'Home' } = req.body;
+app.post('/:userId/address', async(req, res) => {
+    console.log('.............in app post address...........')
+    const { street, city, country, zip, phoneNo, isShippingAddress} = req.body;
     try{
         const address = new UserAddress({
-            addressType, street, city, zip, country, phoneNo
+            street, city, country, zip,  phoneNo, isShippingAddress
         })
         const userAddress = await address.save()
+        console.log('userAddress.......', userAddress)
+        const user = await SproutNestUser.findByIdAndUpdate(req.params.userId, {$push:  {addresses: userAddress._id}})
 
-        const user = await User.findByIdAndUpdate(userId, {$push:  {addresses: userAddress._id}})
-
-        res.status(201).json({ message: "User created successfully", user: user });
+        res.status(201).json({ message: "Address created successfully", user, userAddress });
     }
     catch(error){
         res.status(500).json({error: 'Internal Server Error'})

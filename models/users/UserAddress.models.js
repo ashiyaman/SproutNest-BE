@@ -1,12 +1,6 @@
 const mongoose = require('mongoose')
 
 const userAddressSchema = new mongoose.Schema({
-    addressType: {
-        type: String,
-        enum: ['Home', 'Work', 'Other'],
-        required: true,
-        default: 'Home'
-    },
     street: {
         type: String,
         required: true
@@ -25,7 +19,7 @@ const userAddressSchema = new mongoose.Schema({
         default: 'India'
     }  ,
     phoneNo: String ,
-    isDefault: {
+    isShippingAddress: {
         type: Boolean,
         default: false
     }
