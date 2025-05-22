@@ -240,24 +240,17 @@ app.get('/:userId/addresses', async(req, res) => {
 })
 
 app.delete('/:userId/:addressId', async(req, res) => {
-    console.log('....api to delete........', req.params)
-        if (!userId) {
-            return res.status(400).json({ error: 'User ID is required' });
+    const {addressId} = req.params
+    try{
+        const address = await UserAddress.findByIdAndDelete(addressId)
+        if(!address){
+            return res.status(404).json({error: 'Address not found'})
         }
-        try{
-            const address = await UserAddress.findByIdAndDelete(req.params.addressId)
-            if(!address){
-                return res.status(404).json({error: 'Address not found'})
-            }
-            const user = await SproutNestUser.updateOne(
-                {_id: req.params.userId},
-                {$pull: {addresses: address._id}}
-            )
-            res.status(200).json(user)
-        }
-        catch(error){
-            res.status(500).json({error: 'Internal Server Error'})
-        }
+        res.status(200).json(address)
+    }
+    catch(error){
+        res.status(500).json({error: 'Internal Server Error'})
+    }
 })
 
 app.post('/user', async(req, res) => {
