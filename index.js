@@ -285,7 +285,7 @@ app.post('/:userId/address', async(req, res) => {
         const userAddress = await address.save()
         const user = await SproutNestUser.findByIdAndUpdate(req.params.userId, {$push:  {addresses: userAddress._id}})
 
-        res.status(201).json(userAddress);
+        res.status(201).json(address);
     }
     catch(error){
         res.status(500).json({error: 'Internal Server Error'})
