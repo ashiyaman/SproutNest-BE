@@ -240,8 +240,7 @@ app.get('/:userId/addresses', async(req, res) => {
 })
 
 app.delete('/:userId/:addressId', async(req, res) => {
-    const {userId} = req.body
-    
+    console.log('....api to delete........', req.params)
         if (!userId) {
             return res.status(400).json({ error: 'User ID is required' });
         }
@@ -251,7 +250,7 @@ app.delete('/:userId/:addressId', async(req, res) => {
                 return res.status(404).json({error: 'Address not found'})
             }
             const user = await SproutNestUser.updateOne(
-                {_id: userId},
+                {_id: req.params.userId},
                 {$pull: {addresses: address._id}}
             )
             res.status(200).json(user)
