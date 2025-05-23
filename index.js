@@ -265,7 +265,7 @@ app.delete("/:userId/:addressId", async (req, res) => {
   }
 });
 
-app.post("/v1/user/", async (req, res) => {
+app.post("/v1/user", async (req, res) => {
   const {
     name,
     street,
