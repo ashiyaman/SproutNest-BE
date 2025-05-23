@@ -22,6 +22,11 @@ const userAddressSchema = new mongoose.Schema({
     isShippingAddress: {
         type: Boolean,
         default: false
+    },
+    user: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'SproutNestUser',
+        required: true
     }
 },
 {timestamps: true}
