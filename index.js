@@ -137,7 +137,6 @@ const seedPlanterData = () => {
 //seedPlanterData()
 
 const addAddress = async (address) => {
-    console.log('add addr normal fn..........................', address)
   try {
     if (address) {
       const savedAddress = new UserAddress(address);
@@ -266,7 +265,7 @@ app.delete("/:userId/:addressId", async (req, res) => {
   }
 });
 
-app.post("/v1/user/register", async (req, res) => {
+app.post("/v1/user/", async (req, res) => {
   const {
     name,
     street,
@@ -331,17 +330,12 @@ app.post("/v1/user/register", async (req, res) => {
 })*/
 
 app.post("/v1/:userId/address", async (req, res) => {
-  console.log(
-    "we are adding another addrrrrrr.in route fn.........................",
-    req.body
-  );
   const { street, city, country, zip, phoneNo, isShippingAddress, user } =
     req.body;
   const { userId } = req.params;
 
   if (isShippingAddress === true) {
     const addressCount = await UserAddress.countDocuments({ user: user });
-    console.log(".......address count..........", addressCount);
 
     await UserAddress.updateMany(
       { user: userId },
@@ -350,18 +344,12 @@ app.post("/v1/:userId/address", async (req, res) => {
   }
   try {
     const userAddress = await addAddress(req.body);
-    console.log("user address...........1.....", userAddress);
     const user = await SproutNestUser.findByIdAndUpdate(req.params.userId, {
       $push: { addresses: userAddress._id },
     });
-    console.log("user afr update..............2..................", user);
     const populatedUser = await SproutNestUser.findById(
       req.params.userId
     ).populate("addresses");
-    console.log(
-      "populated user....................3..............",
-      populatedUser
-    );
 
     res.status(201).json(populatedUser);
   } catch (error) {
