@@ -60,3 +60,31 @@ All product and category routes have been successfully implemented. Below is the
     }
   }
   ```
+
+## ✅ Feature API & Model Checklist
+
+### 📦 Wishlist Management
+- [x] **/wishlist** – Retrieve all items in the user's wishlist
+
+### 🛒 Cart Management
+- [x] **/cart** – Retrieve current user's cart with products and quantities
+
+### 📬 Address Management
+- [x] **GET /user** – Get the user details with address(if saved)
+- [x] **POST /v1/user** – Register new user (save addres if details given)
+- [x] **PUT /addresses/:addressId** – Update an existing address
+- [x] **DELETE /addresses/:addressId** – Remove a saved address
+- [x] **Model: Address**
+  - [x] userId (reference to User)
+  - [x] name
+  - [x] street
+  - [x] city
+  - [x] state
+  - [x] zip
+  - [x] country
+  - [x] phone
+  - [x] isshippingAddress 
+
+---
+
+
