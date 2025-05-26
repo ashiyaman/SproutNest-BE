@@ -7,6 +7,14 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    email: {
+        type: String,
+        required: true,
+        unique: true,
+        lowercase: true,
+        trim: true,
+        match: [/^\S+@\S+\.\S+$/, 'Please a valid Email address']
+    },
     addresses: [{
         type: Schema.Types.ObjectId,
         ref: 'UserAddress'
