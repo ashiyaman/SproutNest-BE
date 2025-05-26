@@ -137,6 +137,7 @@ const seedPlanterData = () => {
 //seedPlanterData()
 
 const addAddress = async (address) => {
+    console.log('addddrrrrrrrrrr.........', address)
   try {
     if (address) {
       const savedAddress = new UserAddress(address);
@@ -252,24 +253,27 @@ app.get("/:userId/addresses", async (req, res) => {
 app.delete("/:userId/:addressId", async (req, res) => {
   const { userId, addressId } = req.params;
   try {
-    const addressToDelete = await UserAddress.findById(addressId)
-    const allRemainingAddress = await UserAddress.find({_id: {$ne: addressId}})
-    console.log('delete address.............1..............', addressToDelete)
-    console.log('delete address.............2..............', allRemainingAddress)
+    const addressToDelete = await UserAddress.findById(addressId);
+
     if (!addressToDelete) {
       return res.status(404).json({ error: "Address not found" });
     }
-    if(addressToDelete.isShippingAddress === true){
-        await UserAddress.updateOne(
-            {user: userId},
-            {$set: {isShippingAddress: true}}
-        )
+    if (addressToDelete.isShippingAddress === true) {
+        const newShippingAddress = await UserAddress.findOne(
+            {user: userId,
+            _id: {$ne: addressId}
+        }).sort({createdAt: -1})
+        if(newShippingAddress){
+            await UserAddress.updateOne(
+                {_id: newShippingAddress._id},
+                {$set: {isShippingAddress: true}}
+            )
+        }
     }
-    await UserAddress.deleteOne({_id: addressToDelete._id})
+    await UserAddress.deleteOne({ _id: addressToDelete._id });
     const populatedUser = await SproutNestUser.findById(userId).populate(
       "addresses"
     );
-    console.log('delete address.............3..............', populatedUser)
     res.status(201).json(populatedUser);
   } catch (error) {
     res.status(500).json({ error: "Internal Server Error" });
@@ -301,7 +305,7 @@ app.post("/v1/user", async (req, res) => {
         country,
         zip,
         phoneNo,
-        isShippingAddress,
+        isShippingAddress: true,
         user,
       });
       if (userAddress) {
@@ -355,10 +359,20 @@ app.post("/v1/:userId/address", async (req, res) => {
     );
   }
   try {
-    const userAddress = await addAddress(req.body);
-    const user = await SproutNestUser.findByIdAndUpdate(req.params.userId, {
-      $push: { addresses: userAddress._id },
-    });
+    console.log('length..................', user.addresses.length)
+    if (user.addresses.length === 0) {
+        const address = {...req.body, isShippingAddress: true}
+      const userAddress = await addAddress(address);
+      const user = await SproutNestUser.findByIdAndUpdate(req.params.userId, {
+        $push: { addresses: userAddress._id },
+      });
+    } else {
+      const userAddress = await addAddress(req.body);
+      const user = await SproutNestUser.findByIdAndUpdate(req.params.userId, {
+        $push: { addresses: userAddress._id },
+      });
+    }
+
     const populatedUser = await SproutNestUser.findById(
       req.params.userId
     ).populate("addresses");
