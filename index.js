@@ -249,11 +249,12 @@ app.get("/:userId/addresses", async (req, res) => {
   }
 });
 
-app.delete("v1/:userId/:addressId", async (req, res) => {
+app.delete("/v1/:userId/:addressId", async (req, res) => {
   const { userId, addressId } = req.params;
+  console.log('...in delete.............1.............', userId, addressId)
   try {
     const addressToDelete = await UserAddress.findById(addressId);
-
+    console.log('...in delete.............2.............', addressToDelete)
     if (!addressToDelete) {
       return res.status(404).json({ error: "Address not found" });
     }
@@ -325,19 +326,15 @@ app.post("/v1/user", async (req, res) => {
 app.post("/v1/address/:addressId", async(req, res) => {
     const { street, city, country, zip, phoneNo, isShippingAddress, user } =
     req.body;
-    console.log('in update.........111111.....................', isShippingAddress)
     if(isShippingAddress === true){
         const newShippingAddress = await setShippingAddress(user)
-        console.log('in update.........shiping........................', newShippingAddress)
     }
     try{
         const addressUpdated = await UserAddress.findByIdAndUpdate(
             req.params.addressId, 
             {street, city, country, zip, phoneNo, isShippingAddress},
             {new: true})
-        console.log('in update.........2.....................', addressUpdated)
         const populatedUser = await SproutNestUser.findById(user).populate('addresses')
-        console.log('in update.........3.....................', populatedUser)
         res.status(201).json(populatedUser);
     } catch (error) {
     res.status(500).json({ error: "Internal Server Error" });
