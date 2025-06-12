@@ -4,6 +4,10 @@ Welcome to **SproutNest**, a beautifully designed online plant store where natur
 
 ---
 
+**🚀 Demo:** [https://sprout-nest-fe.vercel.app/](https://sprout-nest-fe.vercel.app/)
+
+---
+
 ## 🚀 Features  
 
 - 🪴 **Wide Collection of Plants** — Indoor, outdoor, succulents, air-purifying, and flowering plants.  
