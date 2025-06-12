@@ -25,6 +25,30 @@ Welcome to **SproutNest**, a beautifully designed online plant store where natur
 - **Hosting:** Vercel (Frontend)
 
 ---
+## 🌿 API Reference – SproutNest
+
+### User Routes
+
+- `POST /v1/user` — Register a new user  
+- `GET /user` — Fetch all users  
+- `POST /user` — Add a new user (admin)  
+- `POST /v1/:userId/address` — Add address for a user  
+- `POST /v1/address/:addressId` — Update existing address  
+- `DELETE /v1/:userId/:addressId` — Delete a specific address  
+
+### Product Routes
+
+- `GET /products` — Fetch all products  
+- `GET /products?new=true` — Fetch newly added products  
+- `GET /products/category/:categoryId` — Get products by category ID  
+- `GET /products/:productId` — Get product by ID  
+
+### Category Routes
+
+- `GET /categories` — Get all product categories  
+- `GET /categories/:categoryId` — Get single category by ID  
+
+---
 
 ## 📦 Installation  
 
