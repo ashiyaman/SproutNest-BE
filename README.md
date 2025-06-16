@@ -8,6 +8,12 @@ Welcome to **SproutNest**, a beautifully designed online plant store where natur
 
 ---
 
+## 🎥 Project Walkthrough
+
+▶️ [**Watch the walkthrough video on Google Drive**](https://drive.google.com/file/d/1d3KfkKwKP88ZIH7epvhw6vUwN2NOrtJT/view?usp=drive_link)
+
+---
+
 ## 🚀 Features  
 
 - 🪴 **Wide Collection of Plants** — Indoor, outdoor, succulents, air-purifying, and flowering plants.  
